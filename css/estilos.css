@@ -1,0 +1,37 @@
+body {
+	background: #e5e5e5;
+}
+.menu {
+	background:#415a97;
+	height:40px;
+}
+.menu-inicial {
+	background:#f3ad3d;
+	position:relative;
+	top:8px;
+	margin-left:10px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+#main-vertical {
+	background:#cdd0d5;
+	margin-top:5px;
+}
+.img-vertical {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-vertical img {
+	width:50%;
+	margin-top:13px;
+}
+.main-holding {
+	background:white;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+.nav-link {
+	color:black;
+}
