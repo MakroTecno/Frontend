@@ -1,0 +1,4 @@
+function status()
+{
+	alert('hola');
+}

@@ -3,20 +3,19 @@ body {
 }
 .menu {
 	background:#415a97;
-	height:40px;
 }
-.menu-inicial {
+.primer_opcion {
 	background:#f3ad3d;
-	position:relative;
-	top:8px;
 	margin-left:10px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
+    color:black;
 }
 #main-vertical {
 	background:#cdd0d5;
-	margin-top:5px;
+	margin:10px;
+	height:100%;
 }
 .img-vertical {
 	display:flex;
@@ -27,11 +26,30 @@ body {
 	width:50%;
 	margin-top:13px;
 }
-.main-holding {
-	background:white;
+.card {
+	margin:5px;
 	border:1px solid black;
-	border-collapse: collapse;
 }
-.nav-link {
-	color:black;
+.list-group-item {
+	border:1px solid black;
+}
+.tabla_contenido td{
+	border:1px solid black;
+}
+.panel {
+	background:#cdd0d5;
+	margin:10px;
+	height:100%;
+}
+.panel_principal, .menu_vertical {
+	background:white;
+	margin:20px;
+}
+.panel_principal {
+	max-width:75%;
+	padding:10px;
+}
+.curso1_titulo {
+	padding:10px;
+	margin:10px;
 }
