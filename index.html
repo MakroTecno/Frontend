@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
 </head>
 <body>
 	<div class="container-fluid cursos">
@@ -18,13 +19,13 @@
 				  </button>
 				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				    <div class="navbar-nav">
-				      <a class="nav-item nav-link primer_opcion" href="#" onclick="status()">Home</a>
+				      <button class="nav-item nav-link primer_opcion" onclick="myFunction()">Home</button>
 				      <a class="nav-item nav-link primer_opcion" href="#">Features</a>
 				    </div>
 				  </div>
 				</nav>
 			</div>
-			<div class="col-2 menu_vertical_login">
+			<div class="col-2" id="menu_vertical_login">
 				<section id="main-vertical">
 					<div class="img-vertical">
 						<img src="img/default.png">
@@ -37,7 +38,7 @@
 					</div>
 				</section>
 			</div>
-			<div class="col-10 panel_general">
+			<div class="col-10" id="panel_general">
 					<div class="row panel">
 						<div class="col-10 panel_principal">
 							<div class="row">
@@ -103,5 +104,4 @@
 	</div>
 
 </body>
-<script src="js/scripts.js"></script>
 </html>
