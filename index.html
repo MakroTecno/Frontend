@@ -6,7 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="js/provider.json">
+		function myFunction() {
+		    var menu_vertical = document.getElementById("menu_vertical_login");
+		    if (menu_vertical.style.display === "none") {
+		        menu_vertical.style.display = "block";
+		    } else {
+		        menu_vertical.style.display = "none";
+		    }
+		}
+	</script>
 </head>
 <body>
 	<div class="container-fluid cursos">
@@ -20,7 +29,6 @@
 				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				    <div class="navbar-nav">
 				      <button class="nav-item nav-link primer_opcion" onclick="myFunction()">Home</button>
-				      <a class="nav-item nav-link primer_opcion" href="#">Features</a>
 				    </div>
 				  </div>
 				</nav>
@@ -40,61 +48,243 @@
 			</div>
 			<div class="col-2 col-md-10" id="panel_general">
 					<div class="row panel">
-						<div class="col-12 col-md-10 panel_principal">
+						<div class="col-12 col-md-10 panel_principal" id="curso1">
 							<div class="row">
 								<div class="col-12 curso1_titulo">
-									<h2>Curso 1</h2>
+									<div id="cursoA"></div>
 								</div>
 								<div class="col-12 tabla_contenido">
 									<table class="table">
 									  <tbody>
 									    <tr>
-									      <td>Capitulo 1</td>
-									      <td>Video 1</td>
+									      <td id="capituloA0"></td>
+									      <td id="videoAA0"></td>
 									    </tr>
 									    <tr>
 									      <td></td>
-									      <td>Video 2</td>
+									      <td id="videoAA1"></td>
 									    </tr>
 									    <tr>
 									      <td></td>
-									      <td>Video 3</td>
+									      <td id="videoAA2"></td>
 									    </tr>
 									    <tr>
-									    	<td>Capitulo 2</td>
-									    	<td>Video 1</td>
-									    </tr>
-									    <tr>
-									    	<td></td>
-									    	<td>Video 2</td>
+									    	<td id="capituloA1">Capitulo 2</td>
+									    	<td id="videoAA3">Video 1</td>
 									    </tr>
 									    <tr>
 									    	<td></td>
-									    	<td>Video 3</td>
+									    	<td id="videoAA4">Video 2</td>
 									    </tr>
 									    <tr>
 									    	<td></td>
-									    	<td>Video 4</td>
+									    	<td id="videoAA5">Video 3</td>
 									    </tr>
 									    <tr>
 									    	<td></td>
-									    	<td>Video 5</td>
+									    	<td id="videoAA6">Video 4</td>
 									    </tr>
 									    <tr>
 									    	<td></td>
-									    	<td>Video 6</td>
+									    	<td id="videoAA7">Video 5</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoAA8">Video 6</td>
 									    </tr>
 									  </tbody>
 									</table>
 								</div>
 							</div>
 						</div>
+<script type="text/javascript">
+/* CURSO A */
+	var cursoA =  cursos.courses[1]['name'];
+	document.getElementById('cursoA').innerHTML = cursoA;
+	var capituloA0 = cursos.courses[1]['list'][1]['chapter'];
+	document.getElementById('capituloA0').innerHTML = capituloA0;
+	var videoAA0 = cursos.courses[1]['list'][1]['videos'][0]['name'];
+	document.getElementById('videoAA0').innerHTML = videoAA0;
+	var videoAA1 = cursos.courses[1]['list'][1]['videos'][1]['name'];
+	document.getElementById('videoAA1').innerHTML = videoAA1;
+	var videoAA2 = cursos.courses[1]['list'][1]['videos'][2]['name'];
+	document.getElementById('videoAA2').innerHTML = videoAA2;
+	var capituloA1 = cursos.courses[1]['list'][2]['chapter'];
+	document.getElementById('capituloA1').innerHTML = capituloA1;
+	var videoAA3 = cursos.courses[1]['list'][2]['videos'][0]['name'];
+	document.getElementById('videoAA3').innerHTML = videoAA3;
+	var videoAA4 = cursos.courses[1]['list'][2]['videos'][1]['name'];
+	document.getElementById('videoAA4').innerHTML = videoAA4;
+	var videoAA5 = cursos.courses[1]['list'][2]['videos'][2]['name'];
+	document.getElementById('videoAA5').innerHTML = videoAA5;
+	var videoAA6 = cursos.courses[1]['list'][2]['videos'][3]['name'];
+	document.getElementById('videoAA6').innerHTML = videoAA6;
+	var videoAA7 = cursos.courses[1]['list'][2]['videos'][4]['name'];
+	document.getElementById('videoAA7').innerHTML = videoAA7;
+	var videoAA8 = cursos.courses[1]['list'][2]['videos'][5]['name'];
+	document.getElementById('videoAA8').innerHTML = videoAA8;
+/* CURSO A */
+</script>
+						<div class="col-12 col-md-10 panel_principal" id="curso2">
+							<div class="row">
+								<div class="col-12 curso1_titulo">
+									<div id="cursoB"></div>
+								</div>
+								<div class="col-12 tabla_contenido">
+									<table class="table">
+									  <tbody>
+									    <tr>
+									      <td id="capituloB0"></td>
+									      <td id="videoBB0"></td>
+									    </tr>
+									    <tr>
+									      <td></td>
+									      <td id="videoBB1"></td>
+									    </tr>
+									    <tr>
+									      <td></td>
+									      <td id="videoBB2"></td>
+									    </tr>
+									    <tr>
+									    	<td id="capituloB1">Capitulo 2</td>
+									    	<td id="videoBB3">Video 1</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoBB4">Video 2</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoBB5">Video 3</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoBB6">Video 4</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoBB7">Video 5</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoBB8">Video 6</td>
+									    </tr>
+									  </tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+<script type="text/javascript">
+/* CURSO B */
+	var cursoB =  cursos.courses[3]['name'];
+	document.getElementById('cursoB').innerHTML = cursoB;
+	var capituloB0 = cursos.courses[3]['list'][1]['chapter'];
+	document.getElementById('capituloB0').innerHTML = capituloB0;
+	var videoBB0 = cursos.courses[3]['list'][1]['videos'][0]['name'];
+	document.getElementById('videoBB0').innerHTML = videoBB0;
+	var videoBB1 = cursos.courses[3]['list'][1]['videos'][1]['name'];
+	document.getElementById('videoBB1').innerHTML = videoBB1;
+	var videoBB2 = cursos.courses[3]['list'][1]['videos'][2]['name'];
+	document.getElementById('videoBB2').innerHTML = videoBB2;
+	var capituloB1 = cursos.courses[3]['list'][2]['chapter'];
+	document.getElementById('capituloB1').innerHTML = capituloB1;
+	var videoBB3 = cursos.courses[3]['list'][2]['videos'][0]['name'];
+	document.getElementById('videoBB3').innerHTML = videoBB3;
+	var videoBB4 = cursos.courses[3]['list'][2]['videos'][1]['name'];
+	document.getElementById('videoBB4').innerHTML = videoBB4;
+	var videoBB5 = cursos.courses[3]['list'][2]['videos'][2]['name'];
+	document.getElementById('videoBB5').innerHTML = videoBB5;
+	var videoBB6 = cursos.courses[3]['list'][2]['videos'][3]['name'];
+	document.getElementById('videoBB6').innerHTML = videoBB6;
+	var videoBB7 = cursos.courses[3]['list'][2]['videos'][4]['name'];
+	document.getElementById('videoBB7').innerHTML = videoBB7;
+	var videoBB8 = cursos.courses[3]['list'][2]['videos'][5]['name'];
+	document.getElementById('videoBB8').innerHTML = videoBB8;
+/* CURSO B */	
+</script>
+						<div class="col-12 col-md-10 panel_principal" id="curso3">
+							<div class="row">
+								<div class="col-12 curso1_titulo">
+									<div id="cursoC"></div>
+								</div>
+								<div class="col-12 tabla_contenido">
+									<table class="table">
+									  <tbody>
+									    <tr>
+									      <td id="capituloC0"></td>
+									      <td id="videoCC0"></td>
+									    </tr>
+									    <tr>
+									      <td></td>
+									      <td id="videoCC1"></td>
+									    </tr>
+									    <tr>
+									      <td></td>
+									      <td id="videoCC2"></td>
+									    </tr>
+									    <tr>
+									    	<td id="capituloC1">Capitulo 2</td>
+									    	<td id="videoCC3">Video 1</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoCC4">Video 2</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoCC5">Video 3</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoCC6">Video 4</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoCC7">Video 5</td>
+									    </tr>
+									    <tr>
+									    	<td></td>
+									    	<td id="videoCC8">Video 6</td>
+									    </tr>
+									  </tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+<script type="text/javascript">
+/* CURSO B */
+	var cursoC =  cursos.courses[4]['name'];
+	document.getElementById('cursoC').innerHTML = cursoC;
+	var capituloC0 = cursos.courses[2]['list'][0]['chapter'];
+	document.getElementById('capituloC0').innerHTML = capituloC0;
+	var videoCC0 = cursos.courses[2]['list'][0]['videos'][0]['name'];
+	document.getElementById('videoCC0').innerHTML = videoCC0;
+	var videoCC1 = cursos.courses[2]['list'][0]['videos'][1]['name'];
+	document.getElementById('videoCC1').innerHTML = videoCC1;
+	var videoCC2 = cursos.courses[2]['list'][0]['videos'][2]['name'];
+	document.getElementById('videoCC2').innerHTML = videoCC2;
+	var capituloC1 = cursos.courses[4]['list'][0]['chapter'];
+	document.getElementById('capituloC1').innerHTML = capituloC1;
+	var videoCC3 = cursos.courses[4]['list'][0]['videos'][0]['name'];
+	document.getElementById('videoCC3').innerHTML = videoCC3;
+	var videoCC4 = cursos.courses[4]['list'][0]['videos'][1]['name'];
+	document.getElementById('videoCC4').innerHTML = videoCC4;
+	var videoCC5 = cursos.courses[4]['list'][0]['videos'][2]['name'];
+	document.getElementById('videoCC5').innerHTML = videoCC5;
+	var videoCC6 = cursos.courses[4]['list'][0]['videos'][3]['name'];
+	document.getElementById('videoCC6').innerHTML = videoCC6;
+	var videoCC7 = cursos.courses[4]['list'][0]['videos'][4]['name'];
+	document.getElementById('videoCC7').innerHTML = videoCC7;
+	var videoCC8 = cursos.courses[4]['list'][0]['videos'][5]['name'];
+	document.getElementById('videoCC8').innerHTML = videoCC8;
+/* CURSO B */	
+</script>
 						<div class="col-2 menu_vertical">
 							<div class="card">
 							  <ul class="list-group list-group-flush">
-							    <li class="list-group-item">Curso 1</li>
-							    <li class="list-group-item">Curso 2</li>
-							    <li class="list-group-item">Curso 3</li>
+							    <li class="list-group-item"><a href="#" id="boton1">Curso 1</a></li>
+							    <li class="list-group-item"><a href="#" id="boton2">Curso 2</a></li>
+							    <li class="list-group-item"><a href="#" id="boton3">Curso 3</a></li>
 							  </ul>
 							</div>
 						</div>
@@ -102,6 +292,28 @@
 			</div>
 		</div>
 	</div>
-
+<script type="text/javascript">
+$(document).ready(function()
+		{
+			$('#curso1').show();
+			$('#curso2').hide();
+			$('#curso3').hide();
+		$("#boton1").click(function () {	 
+			$('#curso1').show();
+			$('#curso2').hide();
+			$('#curso3').hide();
+			});
+		$("#boton2").click(function () {	 
+			$('#curso1').hide();
+			$('#curso2').show();
+			$('#curso3').hide();
+			});
+		$("#boton3").click(function () {	 
+			$('#curso1').hide();
+			$('#curso2').hide();
+			$('#curso3').show();
+			});
+		});
+</script>
 </body>
 </html>

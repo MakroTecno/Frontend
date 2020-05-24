@@ -1,0 +1,751 @@
+var cursos = {
+  "courses": [
+  	{
+      "name": "Programming - Android Leveraging the power of the android platform", 
+      "color": "#BCCEF4",
+      "list":
+      [
+      	{
+		"chapter":"Leveraging the power of the android platform",
+		"videos":[ 
+		            { 
+		            "name":" Understanding the android threading model",
+		            "video":"programming/Android/Leveraging the power of the android platform/1. Understanding the android threading model.mkv",
+		            "subtitle":"file.vtt"
+		             },
+		            { 
+		            "name":" Performing Background work with Services",
+		            "video":"programming/Android/Leveraging the power of the android platform/2. Performing Background work with Services.mkv",
+		            "subtitle":"file.vtt"
+		            },
+		            { 
+		            "name":" Scheduling Background work with jobScheduler",
+		            "video":"programming/Android/Leveraging the power of the android platform/3. Scheduling Background work with jobScheduler.mkv",
+		            "subtitle":"file.vtt"
+		            },
+		            { 
+		            "name":" working with Broadcast Receivers",
+		            "video":"programming/Android/Leveraging the power of the android platform/4. working with Broadcast Receivers.mkv",
+		            "subtitle":"file.vtt"
+		            },
+		            { 
+		            "name":" Using Alarms to shedule time-sensitive task",
+		            "video":"programming/Android/Leveraging the power of the android platform/5. Using Alarms to shedule time-sensitive task.mkv",
+		            "subtitle":"file.vtt"
+		            }
+		        ]
+		}
+
+      ]
+    },
+    {
+      "name": "Programming - Android Apps with Kotlin- ViewModel and Lifecycle", 
+      "color": "#BCCEF4",
+      "list":
+      [
+          {
+            "chapter":"00. Course Overview",
+            "videos":[ 
+                { 
+                "name":" Course Overview",
+                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/00. Course Overview/00. Course Overview.mp4",
+                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/00. Course Overview/00. Course Overview.vtt"
+                }
+            ]
+           },
+           {
+            "chapter":"01. Managing Activity State with ViewModel",
+            "videos":[ 
+                        { 
+                        "name":" Introduction",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/00. Introduction.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/00. Introduction.vtt"
+                        },
+                        { 
+                        "name":" Activities - More Than Just a Pretty Face",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/01. Activities - More Than Just a Pretty Face.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/01. Activities - More Than Just a Pretty Face.vtt"
+                        },
+                        { 
+                        "name":" Managing Activity State with ViewModel",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/02. Managing Activity State with ViewModel.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/02. Managing Activity State with ViewModel.vtt"
+                        },
+                        { 
+                        "name":" There's a Bug in Our App",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/03. There's a Bug in Our App.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/03. There's a Bug in Our App.vtt"
+                        },
+                        { 
+                        "name":" Adding a ViewModel and Build Dependencies",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/04. Adding a ViewModel and Build Dependencies.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/04. Adding a ViewModel and Build Dependencies.vtt"
+                        },
+                        { 
+                        "name":" Accessing Our ViewModel with a Lazy Property",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/05. Accessing Our ViewModel with a Lazy Property.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/05. Accessing Our ViewModel with a Lazy Property.vtt"
+                        },
+                        { 
+                        "name":" Restoring the Activity State",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/06. Restoring the Activity State.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/06. Restoring the Activity State.vtt"
+                        },
+                        { 
+                        "name":" That Bug's Fixed, but We Just Found Another One",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/07. That Bug's Fixed, but We Just Found Another One.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/07. That Bug's Fixed, but We Just Found Another One.vtt"
+                        },
+                        { 
+                        "name":" Managing More Complex State with ViewModel",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/08. Managing More Complex State with ViewModel.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/08. Managing More Complex State with ViewModel.vtt"
+                        },
+                        { 
+                        "name":" Verifying App Behavior",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/09. Verifying App Behavior.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/09. Verifying App Behavior.vtt"
+                        },
+                        { 
+                        "name":" Summary",
+                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/10. Summary.mp4",
+                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/10. Summary.vtt"
+                        }
+            ]
+            },
+            {
+                "chapter":"02. Maintaining Activity State during System-initiated Shutdowns",
+                "videos":[ 
+                            { 
+                            "name":" Introduction",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/00. Introduction.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/00. Introduction.vtt"
+                            },
+                            { 
+                            "name":" Activity Destruction Effects on State",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/01. Activity Destruction Effects on State.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/01. Activity Destruction Effects on State.vtt"
+                            },
+                            { 
+                            "name":" Durable Activity State",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/02. Durable Activity State.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/02. Durable Activity State.vtt"
+                            },
+                            { 
+                            "name":" Identifying the Need for Durable State",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/03. Identifying the Need for Durable State.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/03. Identifying the Need for Durable State.vtt"
+                            },
+                            { 
+                            "name":" Persisting State of a Simple Value",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/04. Persisting State of a Simple Value.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/04. Persisting State of a Simple Value.vtt"
+                            },
+                            { 
+                            "name":" Restoring State of a Simple Value",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/05. Restoring State of a Simple Value.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/05. Restoring State of a Simple Value.vtt"
+                            },
+                            { 
+                            "name":" Summary",
+                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/06. Summary.mp4",
+                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/06. Summary.vtt"
+                            }
+                ]
+                },
+                {
+                    "chapter":"03. Persisting Complex Activity State",
+                    "videos":[ 
+                                { 
+                                "name":" Introduction",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/00. Introduction.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/00. Introduction.vtt"
+                                },
+                                { 
+                                "name":" We're Still Losing Some of Our Activity State",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/01. We're Still Losing Some of Our Activity State.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/01. We're Still Losing Some of Our Activity State.vtt"
+                                },
+                                { 
+                                "name":" Activity State and Data Model Cooperation",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/02. Activity State and Data Model Cooperation.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/02. Activity State and Data Model Cooperation.vtt"
+                                },
+                                { 
+                                "name":" Moving the Details to the ViewModel",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/03. Moving the Details to the ViewModel.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/03. Moving the Details to the ViewModel.vtt"
+                                },
+                                { 
+                                "name":" Persisting State of an Object Graph",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/04. Persisting State of an Object Graph.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/04. Persisting State of an Object Graph.vtt"
+                                },
+                                { 
+                                "name":" Effectively Using ViewModel and Durable State Together",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/05. Effectively Using ViewModel and Durable State Together.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/05. Effectively Using ViewModel and Durable State Together.vtt"
+                                },
+                                { 
+                                "name":" Verifying State Management Behavior",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/06. Verifying State Management Behavior.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/06. Verifying State Management Behavior.vtt"
+                                },
+                                { 
+                                "name":" Summary",
+                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/07. Summary.mp4",
+                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/07. Summary.vtt"
+                                }
+                    ]
+                    },
+                    {
+                        "chapter":"04. Subscribing to Lifecycle Events",
+                        "videos":[ 
+                                    { 
+                                    "name":" Introduction",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/00. Introduction.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/00. Introduction.vtt"
+                                    },
+                                    { 
+                                    "name":" Cooperating with Activity Lifecycle",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/01. Cooperating with Activity Lifecycle.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/01. Cooperating with Activity Lifecycle.vtt"
+                                    },
+                                    { 
+                                    "name":" Our App's Get-together Feature",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/02. Our App's Get-together Feature.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/02. Our App's Get-together Feature.vtt"
+                                    },
+                                    { 
+                                    "name":" Managing Location with Activity Functions",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/03. Managing Location with Activity Functions.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/03. Managing Location with Activity Functions.vtt"
+                                    },
+                                    { 
+                                    "name":" Fixing the Location Resource Leak",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/04. Fixing the Location Resource Leak.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/04. Fixing the Location Resource Leak.vtt"
+                                    },
+                                    { 
+                                    "name":" Improving Lifecycle Handling with Events",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/05. Improving Lifecycle Handling with Events.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/05. Improving Lifecycle Handling with Events.vtt"
+                                    },
+                                    { 
+                                    "name":" Creating a Lifecycle Observer",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/06. Creating a Lifecycle Observer.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/06. Creating a Lifecycle Observer.vtt"
+                                    },
+                                    { 
+                                    "name":" Observing Lifecycle Events",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/07. Observing Lifecycle Events.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/07. Observing Lifecycle Events.vtt"
+                                    },
+                                    { 
+                                    "name":" Connecting the Observer to the Lifecycle",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/08. Connecting the Observer to the Lifecycle.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/08. Connecting the Observer to the Lifecycle.vtt"
+                                    },
+                                    { 
+                                    "name":" Summary",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/09. Summary.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/09. Summary.vtt"
+                                    }
+                        ]
+                        },
+                        {
+                        "chapter":"05. Determining Lifecycle State",
+                        "videos":[ 
+                                    { 
+                                    "name":" Introduction",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/00. Introduction.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/00. Introduction.vtt"
+                                    },
+                                    { 
+                                    "name":" Events Are Only Part of the Story",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/01. Events Are Only Part of the Story.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/01. Events Are Only Part of the Story.vtt"
+                                    },
+                                    { 
+                                    "name":" Adding the Messaging Manager",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/02. Adding the Messaging Manager.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/02. Adding the Messaging Manager.vtt"
+                                    },
+                                    { 
+                                    "name":" Lifecycle-driven Asynchronous Operations",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/03. Lifecycle-driven Asynchronous Operations.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/03. Lifecycle-driven Asynchronous Operations.vtt"
+                                    },
+                                    { 
+                                    "name":" We're Leaking Connections",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/04. We're Leaking Connections.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/04. We're Leaking Connections.vtt"
+                                    },
+                                    { 
+                                    "name":" Lifecycle State",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/05. Lifecycle State.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/05. Lifecycle State.vtt"
+                                    },
+                                    { 
+                                    "name":" Verifying State in Asynchronous Operations",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/06. Verifying State in Asynchronous Operations.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/06. Verifying State in Asynchronous Operations.vtt"
+                                    },
+                                    { 
+                                    "name":" The Leak Is Fixed",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/07. The Leak Is Fixed.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/07. The Leak Is Fixed.vtt"
+                                    },
+                                    { 
+                                    "name":" Summary",
+                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/08. Summary.mp4",
+                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/08. Summary.vtt"
+                                    }
+                        ]
+                        }
+      ]
+    },
+    {
+      "name": "Programming - Practical cryptography in nodejs", 
+      "color": "#BCCEF4",
+      "list":[
+        {
+            "chapter":"Practical cryptography in nodejs",
+            "videos":[ 
+                { 
+                "name":"Introduction to cryptography in nodejs",
+                "video":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in node.vtt"
+                },
+                { 
+                "name":"Protecting passwords",
+                "video":"programming/Practical cryptography in nodejs/2. Protecting passwords.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in node.vtt"
+                },
+                { 
+                "name":"Proteting data at rest",
+                "video":"programming/Practical cryptography in nodejs/3. Proteting data at rest.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
+                },
+                { 
+                "name":"Protecting data in transit",
+                "video":"programming/Practical cryptography in nodejs/4. Protecting data in transit.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
+                },
+                { 
+                "name":" Authenticating using two factor authentication",
+                "video":"programming/Practical cryptography in nodejs/5. Authenticating using two factor authentication.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
+                },
+                { 
+                "name":" implementing cryptography",
+                "video":"programming/Practical cryptography in nodejs/6. implementing cryptography.mkv",
+                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
+                }
+            ]
+        }
+      ]
+    },
+    {
+      "name": "Programming - Android Apps with Kotlin- Resources, Styles, and Themes", 
+      "color": "#BCCEF4",
+      "list":
+           [ 
+				{
+				"chapter":"00. Course Overview",
+				"videos":[ 
+				            { 
+				            "name":" Course Overview",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/00. Course Overview/00. Course Overview.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/00. Course Overview/00. Course Overview.vtt"
+				            }
+				        ]
+				},
+				{
+				"chapter":"01. Understanding Resource Adaptability",
+				"videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" Resource Purpose and Interaction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/01. Resource Purpose and Interaction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/01. Resource Purpose and Interaction.vtt"
+				            },
+				            { 
+				            "name":" Our Demo App",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/02. Our Demo App.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/02. Our Demo App.vtt"
+				            },
+				            { 
+				            "name":" Using and Accessing Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/03. Using and Accessing Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/03. Using and Accessing Resources.vtt"
+				            },
+				            { 
+				            "name":" When Sythesized Properties Aren't Enough",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/04. When Sythesized Properties Aren't Enough.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/04. When Sythesized Properties Aren't Enough.vtt"
+				            },
+				            { 
+				            "name":" Resource Adaptability",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/05. Resource Adaptability.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/05. Resource Adaptability.vtt"
+				            },
+				            { 
+				            "name":" Adapting to Configuration Changes",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/06. Adapting to Configuration Changes.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/06. Adapting to Configuration Changes.vtt"
+				            },
+				            { 
+				            "name":" Creating a Layout Resource Landscape Variation",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/07. Creating a Layout Resource Landscape Variation.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/07. Creating a Layout Resource Landscape Variation.vtt"
+				            },
+				            { 
+				            "name":" Customizing the Layout Variation",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/08. Customizing the Layout Variation.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/08. Customizing the Layout Variation.vtt"
+				            },
+				            { 
+				            "name":" Understanding How Adaptability Works",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/09. Understanding How Adaptability Works.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/09. Understanding How Adaptability Works.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/10. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/10. Summary.vtt"
+				            }
+				            ]
+				            },
+				            {
+				            "chapter":"02. Creating Drawable Resources",
+				            "videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" Drawable Resources Come in Many Forms",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/01. Drawable Resources Come in Many Forms.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/01. Drawable Resources Come in Many Forms.vtt"
+				            },
+				            { 
+				            "name":" Creating a Shape Resource",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/02. Creating a Shape Resource.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/02. Creating a Shape Resource.vtt"
+				            },
+				            { 
+				            "name":" Enhancing the Shape Resource Appearance",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/03. Enhancing the Shape Resource Appearance.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/03. Enhancing the Shape Resource Appearance.vtt"
+				            },
+				            { 
+				            "name":" Working with Vector Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/04. Working with Vector Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/04. Working with Vector Resources.vtt"
+				            },
+				            { 
+				            "name":" Vector Resources and Scaling",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/05. Vector Resources and Scaling.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/05. Vector Resources and Scaling.vtt"
+				            },
+				            { 
+				            "name":" Comparing Shape, Vector, and Rastor Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/06. Comparing Shape, Vector, and Rastor Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/06. Comparing Shape, Vector, and Rastor Resources.vtt"
+				            },
+				            { 
+				            "name":" Dealing with Display Densities",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/07. Dealing with Display Densities.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/07. Dealing with Display Densities.vtt"
+				            },
+				            { 
+				            "name":" Display Density-specific Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/08. Display Density-specific Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/08. Display Density-specific Resources.vtt"
+				            },
+				            { 
+				            "name":" Creating Qualified Resource Directories",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/09. Creating Qualified Resource Directories.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/09. Creating Qualified Resource Directories.vtt"
+				            },
+				            { 
+				            "name":" Resource Installation",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/10. Resource Installation.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/10. Resource Installation.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/11. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/11. Summary.vtt"
+				            }
+				        ]
+				},
+				{
+				"chapter":"03. Specifying Values Resources",
+				"videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" Declaring and Organizing Values Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/01. Declaring and Organizing Values Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/01. Declaring and Organizing Values Resources.vtt"
+				            },
+				            { 
+				            "name":" Creating a Color Resource",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/02. Creating a Color Resource.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/02. Creating a Color Resource.vtt"
+				            },
+				            { 
+				            "name":" Sizing Content with Dimension Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/03. Sizing Content with Dimension Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/03. Sizing Content with Dimension Resources.vtt"
+				            },
+				            { 
+				            "name":" Accessibility-friendly Font Sizing",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/04. Accessibility-friendly Font Sizing.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/04. Accessibility-friendly Font Sizing.vtt"
+				            },
+				            { 
+				            "name":" Resources in Code",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/05. Resources in Code.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/05. Resources in Code.vtt"
+				            },
+				            { 
+				            "name":" Using Integer Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/06. Using Integer Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/06. Using Integer Resources.vtt"
+				            },
+				            { 
+				            "name":" Adapting to Display Differences",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/07. Adapting to Display Differences.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/07. Adapting to Display Differences.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/08. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/08. Summary.vtt"
+				            }
+				           ]
+				},
+				{
+				"chapter":"04. Using Strings and String Localization",
+				"videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" A Quick Look at String Resources",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/01. A Quick Look at String Resources.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/01. A Quick Look at String Resources.vtt"
+				            },
+				            { 
+				            "name":" String Resources in the Project",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/02. String Resources in the Project.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/02. String Resources in the Project.vtt"
+				            },
+				            { 
+				            "name":" Converting Literal Strings to Resources in Layouts",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/03. Converting Literal Strings to Resources in Layouts.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/03. Converting Literal Strings to Resources in Layouts.vtt"
+				            },
+				            { 
+				            "name":" String Resources in Code",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/04. String Resources in Code.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/04. String Resources in Code.vtt"
+				            },
+				            { 
+				            "name":" Accessing String Resources from Code",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/05. Accessing String Resources from Code.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/05. Accessing String Resources from Code.vtt"
+				            },
+				            { 
+				            "name":" String Resources with Value Substitution",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/06. String Resources with Value Substitution.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/06. String Resources with Value Substitution.vtt"
+				            },
+				            { 
+				            "name":" Localizing UI Text into Alternate Languages",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/07. Localizing UI Text into Alternate Languages.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/07. Localizing UI Text into Alternate Languages.vtt"
+				            },
+				            { 
+				            "name":" Verifying Localized Text Behavior",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/08. Verifying Localized Text Behavior.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/08. Verifying Localized Text Behavior.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/09. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/09. Summary.vtt"
+				            }
+				          ]
+				},
+				{
+				"chapter":"05. Providing Custom Display Characteristics with Styles",
+				"videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" Android View Attributes",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/01. Android View Attributes.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/01. Android View Attributes.vtt"
+				            },
+				            { 
+				            "name":" View Styles",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/02. View Styles.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/02. View Styles.vtt"
+				            },
+				            { 
+				            "name":" Applying Styles to textAppearance",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/03. Applying Styles to textAppearance.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/03. Applying Styles to textAppearance.vtt"
+				            },
+				            { 
+				            "name":" Declaring a New Style",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/04. Declaring a New Style.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/04. Declaring a New Style.vtt"
+				            },
+				            { 
+				            "name":" Style Inheritance",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/05. Style Inheritance.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/05. Style Inheritance.vtt"
+				            },
+				            { 
+				            "name":" Inheriting a Framework Style",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/06. Inheriting a Framework Style.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/06. Inheriting a Framework Style.vtt"
+				            },
+				            { 
+				            "name":" Inheriting a Project Style",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/07. Inheriting a Project Style.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/07. Inheriting a Project Style.vtt"
+				            },
+				            { 
+				            "name":" Creating a Floating Action Button Style",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/08. Creating a Floating Action Button Style.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/08. Creating a Floating Action Button Style.vtt"
+				            },
+				            { 
+				            "name":" Finding the Floating Action Button Parent Style",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/09. Finding the Floating Action Button Parent Style.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/09. Finding the Floating Action Button Parent Style.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/10. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/10. Summary.vtt"
+				            }
+				         ]
+				},
+				{
+				"chapter":"06. Customizing App Appearance with Themes",
+				"videos":[ 
+				            { 
+				            "name":" Introduction",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/00. Introduction.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/00. Introduction.vtt"
+				            },
+				            { 
+				            "name":" Applying and Declaring Themes",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/01. Applying and Declaring Themes.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/01. Applying and Declaring Themes.vtt"
+				            },
+				            { 
+				            "name":" Understanding the App's Themes",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/02. Understanding the App's Themes.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/02. Understanding the App's Themes.vtt"
+				            },
+				            { 
+				            "name":" Exploring Theme Builder",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/03. Exploring Theme Builder.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/03. Exploring Theme Builder.vtt"
+				            },
+				            { 
+				            "name":" Changing Theme Branding",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/04. Changing Theme Branding.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/04. Changing Theme Branding.vtt"
+				            },
+				            { 
+				            "name":" Using Resource References in a Theme",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/05. Using Resource References in a Theme.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/05. Using Resource References in a Theme.vtt"
+				            },
+				            { 
+				            "name":" Verifying Branding Behavior",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/06. Verifying Branding Behavior.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/06. Verifying Branding Behavior.vtt"
+				            },
+				            { 
+				            "name":" Applying Theme-wide Attributes",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/07. Applying Theme-wide Attributes.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/07. Applying Theme-wide Attributes.vtt"
+				            },
+				            { 
+				            "name":" Setting Theme-specific View Styles",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/08. Setting Theme-specific View Styles.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/08. Setting Theme-specific View Styles.vtt"
+				            },
+				            { 
+				            "name":" Summary",
+				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/09. Summary.mp4",
+				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/09. Summary.vtt"
+				            }
+				        ]
+				}
+           ]
+    },
+    {
+      "name": "Machine learning - Building your first machine learning solutions", 
+      "color": "#BCCEF4",
+      "list":
+           [ 
+           	 {
+                "chapter":"Building your first machine learning solutions",
+	            "videos":[ 
+				            { 
+				            "name":" Getting your feet ready to run",
+				            "video":"machine_learning/Building your first machine learning solutions/1. Getting your feet ready to run.mkv"
+				            },
+				            { 
+				            "name":" Feeding your machine learning pipeline",
+				            "video":"machine_learning/Building your first machine learning solutions/2. Feeding your machine learning pipeline.mkv"
+				            },
+				            { 
+				            "name":" Understanding the overall data trends",
+				            "video":"machine_learning/Building your first machine learning solutions/3. Understanding the overall data trends.mkv"
+				            },
+				            { 
+				            "name":" Making your data ready for the ML model",
+				            "video":"machine_learning/Building your first machine learning solutions/4. Making your data ready for the ML model.mkv"
+				            },
+				            { 
+				            "name":" Implementing your regression solution",
+				            "video":"machine_learning/Building your first machine learning solutions/5. Implementing your regression solution.mkv"
+				            },
+				            { 
+				            "name":" What is next",
+				            "video":"machine_learning/Building your first machine learning solutions/6. What is next.mkv"
+				            }
+                   ]
+
+              }
+           ]
+    }
+  
+
+  ]
+}
