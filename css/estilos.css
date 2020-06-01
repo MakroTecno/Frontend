@@ -33,15 +33,11 @@ body {
 .list-group-item {
 	border:1px solid black;
 }
-.tabla_contenido td{
-	border:1px solid black;
-}
 .panel {
 	background:#cdd0d5;
 	margin:10px;
-	height:100%;
 }
-.panel_principal, .menu_vertical {
+.panel_principal{
 	background:white;
 	margin:20px;
 }
@@ -49,8 +45,21 @@ body {
 	max-width:75%;
 	padding:10px;
 }
-.curso1_titulo {
-	padding:10px;
-	margin:10px;
+.menu_vertical {
+	background:white;
+}
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  td {
+    border: 2px solid black;
+    padding: 5px;
+  }
+#columna {
+	text-align: center;
 }
 

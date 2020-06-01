@@ -1,4 +1,4 @@
-var cursos = {
+{
   "courses": [
   	{
       "name": "Programming - Android Leveraging the power of the android platform", 
