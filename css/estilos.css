@@ -15,7 +15,7 @@ body {
 #main-vertical {
 	background:#cdd0d5;
 	margin:10px;
-	height:100%;
+	height:99%;
 }
 .img-vertical {
 	display:flex;
@@ -47,6 +47,7 @@ body {
 }
 .menu_vertical {
 	background:white;
+	margin:10px;
 }
 
  table {
