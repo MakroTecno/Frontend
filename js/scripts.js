@@ -16,7 +16,7 @@ xhttp.send();
 function bton(datos){
     datosRecibidos = datos.courses;
      for (var i = 0; i < datosRecibidos.length; i++) {
-                   $("#columna").append('<li class="list-group-item"><a href="#" id="boton1" onclick="mostrarCurso('+i+')">Curso '+(i + 1)+'</a></li>');
+                   $("#columna").append('<li class="list-group-item"><a href="#" id="boton1" onclick="mostrarCurso('+i+')">'+datosRecibidos[i]['name']+'</a></li>');
                 }
 }
 function mostrarCurso(i)
