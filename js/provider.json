@@ -1,751 +1,1570 @@
 {
-  "courses": [
-  	{
-      "name": "Programming - Android Leveraging the power of the android platform", 
-      "color": "#BCCEF4",
-      "list":
-      [
-      	{
-		"chapter":"Leveraging the power of the android platform",
-		"videos":[ 
-		            { 
-		            "name":" Understanding the android threading model",
-		            "video":"programming/Android/Leveraging the power of the android platform/1. Understanding the android threading model.mkv",
-		            "subtitle":"file.vtt"
-		             },
-		            { 
-		            "name":" Performing Background work with Services",
-		            "video":"programming/Android/Leveraging the power of the android platform/2. Performing Background work with Services.mkv",
-		            "subtitle":"file.vtt"
-		            },
-		            { 
-		            "name":" Scheduling Background work with jobScheduler",
-		            "video":"programming/Android/Leveraging the power of the android platform/3. Scheduling Background work with jobScheduler.mkv",
-		            "subtitle":"file.vtt"
-		            },
-		            { 
-		            "name":" working with Broadcast Receivers",
-		            "video":"programming/Android/Leveraging the power of the android platform/4. working with Broadcast Receivers.mkv",
-		            "subtitle":"file.vtt"
-		            },
-		            { 
-		            "name":" Using Alarms to shedule time-sensitive task",
-		            "video":"programming/Android/Leveraging the power of the android platform/5. Using Alarms to shedule time-sensitive task.mkv",
-		            "subtitle":"file.vtt"
-		            }
-		        ]
-		}
-
-      ]
-    },
-    {
-      "name": "Programming - Android Apps with Kotlin- ViewModel and Lifecycle", 
-      "color": "#BCCEF4",
-      "list":
-      [
-          {
-            "chapter":"00. Course Overview",
-            "videos":[ 
-                { 
-                "name":" Course Overview",
-                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/00. Course Overview/00. Course Overview.mp4",
-                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/00. Course Overview/00. Course Overview.vtt"
-                }
-            ]
-           },
-           {
-            "chapter":"01. Managing Activity State with ViewModel",
-            "videos":[ 
-                        { 
-                        "name":" Introduction",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/00. Introduction.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/00. Introduction.vtt"
-                        },
-                        { 
-                        "name":" Activities - More Than Just a Pretty Face",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/01. Activities - More Than Just a Pretty Face.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/01. Activities - More Than Just a Pretty Face.vtt"
-                        },
-                        { 
-                        "name":" Managing Activity State with ViewModel",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/02. Managing Activity State with ViewModel.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/02. Managing Activity State with ViewModel.vtt"
-                        },
-                        { 
-                        "name":" There's a Bug in Our App",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/03. There's a Bug in Our App.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/03. There's a Bug in Our App.vtt"
-                        },
-                        { 
-                        "name":" Adding a ViewModel and Build Dependencies",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/04. Adding a ViewModel and Build Dependencies.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/04. Adding a ViewModel and Build Dependencies.vtt"
-                        },
-                        { 
-                        "name":" Accessing Our ViewModel with a Lazy Property",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/05. Accessing Our ViewModel with a Lazy Property.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/05. Accessing Our ViewModel with a Lazy Property.vtt"
-                        },
-                        { 
-                        "name":" Restoring the Activity State",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/06. Restoring the Activity State.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/06. Restoring the Activity State.vtt"
-                        },
-                        { 
-                        "name":" That Bug's Fixed, but We Just Found Another One",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/07. That Bug's Fixed, but We Just Found Another One.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/07. That Bug's Fixed, but We Just Found Another One.vtt"
-                        },
-                        { 
-                        "name":" Managing More Complex State with ViewModel",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/08. Managing More Complex State with ViewModel.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/08. Managing More Complex State with ViewModel.vtt"
-                        },
-                        { 
-                        "name":" Verifying App Behavior",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/09. Verifying App Behavior.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/09. Verifying App Behavior.vtt"
-                        },
-                        { 
-                        "name":" Summary",
-                        "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/10. Summary.mp4",
-                        "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/01. Managing Activity State with ViewModel/10. Summary.vtt"
-                        }
-            ]
-            },
-            {
-                "chapter":"02. Maintaining Activity State during System-initiated Shutdowns",
-                "videos":[ 
-                            { 
-                            "name":" Introduction",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/00. Introduction.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/00. Introduction.vtt"
-                            },
-                            { 
-                            "name":" Activity Destruction Effects on State",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/01. Activity Destruction Effects on State.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/01. Activity Destruction Effects on State.vtt"
-                            },
-                            { 
-                            "name":" Durable Activity State",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/02. Durable Activity State.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/02. Durable Activity State.vtt"
-                            },
-                            { 
-                            "name":" Identifying the Need for Durable State",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/03. Identifying the Need for Durable State.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/03. Identifying the Need for Durable State.vtt"
-                            },
-                            { 
-                            "name":" Persisting State of a Simple Value",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/04. Persisting State of a Simple Value.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/04. Persisting State of a Simple Value.vtt"
-                            },
-                            { 
-                            "name":" Restoring State of a Simple Value",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/05. Restoring State of a Simple Value.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/05. Restoring State of a Simple Value.vtt"
-                            },
-                            { 
-                            "name":" Summary",
-                            "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/06. Summary.mp4",
-                            "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/02. Maintaining Activity State during System-initiated Shutdowns/06. Summary.vtt"
-                            }
-                ]
-                },
-                {
-                    "chapter":"03. Persisting Complex Activity State",
-                    "videos":[ 
-                                { 
-                                "name":" Introduction",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/00. Introduction.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/00. Introduction.vtt"
-                                },
-                                { 
-                                "name":" We're Still Losing Some of Our Activity State",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/01. We're Still Losing Some of Our Activity State.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/01. We're Still Losing Some of Our Activity State.vtt"
-                                },
-                                { 
-                                "name":" Activity State and Data Model Cooperation",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/02. Activity State and Data Model Cooperation.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/02. Activity State and Data Model Cooperation.vtt"
-                                },
-                                { 
-                                "name":" Moving the Details to the ViewModel",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/03. Moving the Details to the ViewModel.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/03. Moving the Details to the ViewModel.vtt"
-                                },
-                                { 
-                                "name":" Persisting State of an Object Graph",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/04. Persisting State of an Object Graph.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/04. Persisting State of an Object Graph.vtt"
-                                },
-                                { 
-                                "name":" Effectively Using ViewModel and Durable State Together",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/05. Effectively Using ViewModel and Durable State Together.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/05. Effectively Using ViewModel and Durable State Together.vtt"
-                                },
-                                { 
-                                "name":" Verifying State Management Behavior",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/06. Verifying State Management Behavior.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/06. Verifying State Management Behavior.vtt"
-                                },
-                                { 
-                                "name":" Summary",
-                                "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/07. Summary.mp4",
-                                "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/03. Persisting Complex Activity State/07. Summary.vtt"
-                                }
-                    ]
-                    },
-                    {
-                        "chapter":"04. Subscribing to Lifecycle Events",
-                        "videos":[ 
-                                    { 
-                                    "name":" Introduction",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/00. Introduction.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/00. Introduction.vtt"
-                                    },
-                                    { 
-                                    "name":" Cooperating with Activity Lifecycle",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/01. Cooperating with Activity Lifecycle.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/01. Cooperating with Activity Lifecycle.vtt"
-                                    },
-                                    { 
-                                    "name":" Our App's Get-together Feature",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/02. Our App's Get-together Feature.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/02. Our App's Get-together Feature.vtt"
-                                    },
-                                    { 
-                                    "name":" Managing Location with Activity Functions",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/03. Managing Location with Activity Functions.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/03. Managing Location with Activity Functions.vtt"
-                                    },
-                                    { 
-                                    "name":" Fixing the Location Resource Leak",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/04. Fixing the Location Resource Leak.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/04. Fixing the Location Resource Leak.vtt"
-                                    },
-                                    { 
-                                    "name":" Improving Lifecycle Handling with Events",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/05. Improving Lifecycle Handling with Events.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/05. Improving Lifecycle Handling with Events.vtt"
-                                    },
-                                    { 
-                                    "name":" Creating a Lifecycle Observer",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/06. Creating a Lifecycle Observer.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/06. Creating a Lifecycle Observer.vtt"
-                                    },
-                                    { 
-                                    "name":" Observing Lifecycle Events",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/07. Observing Lifecycle Events.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/07. Observing Lifecycle Events.vtt"
-                                    },
-                                    { 
-                                    "name":" Connecting the Observer to the Lifecycle",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/08. Connecting the Observer to the Lifecycle.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/08. Connecting the Observer to the Lifecycle.vtt"
-                                    },
-                                    { 
-                                    "name":" Summary",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/09. Summary.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/04. Subscribing to Lifecycle Events/09. Summary.vtt"
-                                    }
-                        ]
-                        },
-                        {
-                        "chapter":"05. Determining Lifecycle State",
-                        "videos":[ 
-                                    { 
-                                    "name":" Introduction",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/00. Introduction.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/00. Introduction.vtt"
-                                    },
-                                    { 
-                                    "name":" Events Are Only Part of the Story",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/01. Events Are Only Part of the Story.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/01. Events Are Only Part of the Story.vtt"
-                                    },
-                                    { 
-                                    "name":" Adding the Messaging Manager",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/02. Adding the Messaging Manager.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/02. Adding the Messaging Manager.vtt"
-                                    },
-                                    { 
-                                    "name":" Lifecycle-driven Asynchronous Operations",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/03. Lifecycle-driven Asynchronous Operations.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/03. Lifecycle-driven Asynchronous Operations.vtt"
-                                    },
-                                    { 
-                                    "name":" We're Leaking Connections",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/04. We're Leaking Connections.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/04. We're Leaking Connections.vtt"
-                                    },
-                                    { 
-                                    "name":" Lifecycle State",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/05. Lifecycle State.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/05. Lifecycle State.vtt"
-                                    },
-                                    { 
-                                    "name":" Verifying State in Asynchronous Operations",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/06. Verifying State in Asynchronous Operations.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/06. Verifying State in Asynchronous Operations.vtt"
-                                    },
-                                    { 
-                                    "name":" The Leak Is Fixed",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/07. The Leak Is Fixed.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/07. The Leak Is Fixed.vtt"
-                                    },
-                                    { 
-                                    "name":" Summary",
-                                    "video":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/08. Summary.mp4",
-                                    "subtitle":"programming/Android/Android Apps with Kotlin- ViewModel and Lifecycle/05. Determining Lifecycle State/08. Summary.vtt"
-                                    }
-                        ]
-                        }
-      ]
-    },
-    {
-      "name": "Programming - Practical cryptography in nodejs", 
-      "color": "#BCCEF4",
-      "list":[
-        {
-            "chapter":"Practical cryptography in nodejs",
-            "videos":[ 
-                { 
-                "name":"Introduction to cryptography in nodejs",
-                "video":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in node.vtt"
-                },
-                { 
-                "name":"Protecting passwords",
-                "video":"programming/Practical cryptography in nodejs/2. Protecting passwords.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in node.vtt"
-                },
-                { 
-                "name":"Proteting data at rest",
-                "video":"programming/Practical cryptography in nodejs/3. Proteting data at rest.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
-                },
-                { 
-                "name":"Protecting data in transit",
-                "video":"programming/Practical cryptography in nodejs/4. Protecting data in transit.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
-                },
-                { 
-                "name":" Authenticating using two factor authentication",
-                "video":"programming/Practical cryptography in nodejs/5. Authenticating using two factor authentication.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
-                },
-                { 
-                "name":" implementing cryptography",
-                "video":"programming/Practical cryptography in nodejs/6. implementing cryptography.mkv",
-                "subtitle":"programming/Practical cryptography in nodejs/1. Introduction to cryptography in nodejs.vtt"
-                }
-            ]
-        }
-      ]
-    },
-    {
-      "name": "Programming - Android Apps with Kotlin- Resources, Styles, and Themes", 
-      "color": "#BCCEF4",
-      "list":
-           [ 
+	"courses": [
+	  {
+		"name": "Git - GitHub- Getting Started", 
+		"color": "#BCCEF4",
+		"list":[
+			 {
+			  "chapter":"00. Course Overview",
+			  "videos":[ 
+						  { 
+						  "name":" Course Overview",
+						  "video":"Git/GitHub- Getting Started/00. Course Overview/00. Course Overview.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/00. Course Overview/00. Course Overview.vtt"
+						  }
+					  ]
+			  },
+			  {
+			  "chapter":"01. An Overview of Git and GitHub",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" What's in This Course for You-",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/01. What's in This Course for You-.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/01. What's in This Course for You-.vtt"
+						  },
+						  { 
+						  "name":" Git and GitHub",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/02. Git and GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/02. Git and GitHub.vtt"
+						  },
+						  { 
+						  "name":" Getting Your Machine Ready",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/03. Getting Your Machine Ready.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/03. Getting Your Machine Ready.vtt"
+						  },
+						  { 
+						  "name":" Demo- Setting up Your Environment",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/04. Demo- Setting up Your Environment.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/04. Demo- Setting up Your Environment.vtt"
+						  },
+						  { 
+						  "name":" Foundations of Git",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/05. Foundations of Git.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/05. Foundations of Git.vtt"
+						  },
+						  { 
+						  "name":" Demo- Getting Started with Git",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/06. Demo- Getting Started with Git.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/06. Demo- Getting Started with Git.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/07. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/01. An Overview of Git and GitHub/07. Summary.vtt"
+						  }
+					  ]
+			  },
+			  {
+			  "chapter":"02. Getting Started with GitHub",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Understanding GitHub",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/01. Understanding GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/01. Understanding GitHub.vtt"
+						  },
+						  { 
+						  "name":" Demo- A Tour of GitHub",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/02. Demo- A Tour of GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/02. Demo- A Tour of GitHub.vtt"
+						  },
+						  { 
+						  "name":" Demo- Setting up Your GitHub Account",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/03. Demo- Setting up Your GitHub Account.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/03. Demo- Setting up Your GitHub Account.vtt"
+						  },
+						  { 
+						  "name":" Using SSH",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/04. Using SSH.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/04. Using SSH.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with SSH",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/05. Demo- Working with SSH.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/05. Demo- Working with SSH.vtt"
+						  },
+						  { 
+						  "name":" Searching GitHub",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/06. Searching GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/06. Searching GitHub.vtt"
+						  },
+						  { 
+						  "name":" Demo- Searching GitHub",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/07. Demo- Searching GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/07. Demo- Searching GitHub.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/02. Getting Started with GitHub/08. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/02. Getting Started with GitHub/08. Summary.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"03. Working with Repositories",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Understanding Repositories",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/01. Understanding Repositories.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/01. Understanding Repositories.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with Repositories",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/02. Demo- Working with Repositories.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/02. Demo- Working with Repositories.vtt"
+						  },
+						  { 
+						  "name":" Connecting with GitHub Locally",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/03. Connecting with GitHub Locally.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/03. Connecting with GitHub Locally.vtt"
+						  },
+						  { 
+						  "name":" Demo- Cloning from and Pushing to GitHub",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/04. Demo- Cloning from and Pushing to GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/04. Demo- Cloning from and Pushing to GitHub.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with Multiple People on a Repository",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/05. Demo- Working with Multiple People on a Repository.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/05. Demo- Working with Multiple People on a Repository.vtt"
+						  },
+						  { 
+						  "name":" Adding Special Files",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/06. Adding Special Files.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/06. Adding Special Files.vtt"
+						  },
+						  { 
+						  "name":" Demo- Adding a Readme and Codeowners File",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/07. Demo- Adding a Readme and Codeowners File.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/07. Demo- Adding a Readme and Codeowners File.vtt"
+						  },
+						  { 
+						  "name":" Administering Your Repository",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/08. Administering Your Repository.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/08. Administering Your Repository.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with the Repository Settings",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/09. Demo- Working with the Repository Settings.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/09. Demo- Working with the Repository Settings.vtt"
+						  },
+						  { 
+						  "name":" Bringing in More Users",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/10. Bringing in More Users.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/10. Bringing in More Users.vtt"
+						  },
+						  { 
+						  "name":" Demo- Bringing in More Users",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/11. Demo- Bringing in More Users.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/11. Demo- Bringing in More Users.vtt"
+						  },
+						  { 
+						  "name":" Demo- Repository Insights",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/12. Demo- Repository Insights.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/12. Demo- Repository Insights.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/03. Working with Repositories/13. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/03. Working with Repositories/13. Summary.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"04. Collaborating Using the GitHub Flow",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Working with Branches",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/01. Working with Branches.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/01. Working with Branches.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating a Branch on GitHub",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/02. Demo- Creating a Branch on GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/02. Demo- Creating a Branch on GitHub.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating a Branch Locally",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/03. Demo- Creating a Branch Locally.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/03. Demo- Creating a Branch Locally.vtt"
+						  },
+						  { 
+						  "name":" Using the GitHub Flow",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/04. Using the GitHub Flow.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/04. Using the GitHub Flow.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with Pull Requests",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/05. Demo- Working with Pull Requests.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/05. Demo- Working with Pull Requests.vtt"
+						  },
+						  { 
+						  "name":" Demo- Reviewing Pull Requests",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/06. Demo- Reviewing Pull Requests.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/06. Demo- Reviewing Pull Requests.vtt"
+						  },
+						  { 
+						  "name":" Merging with Conflicts",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/07. Merging with Conflicts.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/07. Merging with Conflicts.vtt"
+						  },
+						  { 
+						  "name":" Demo- Merging with Conflicts",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/08. Demo- Merging with Conflicts.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/08. Demo- Merging with Conflicts.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating a PR Template",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/09. Demo- Creating a PR Template.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/09. Demo- Creating a PR Template.vtt"
+						  },
+						  { 
+						  "name":" Demo- More Options with Pull Requests",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/10. Demo- More Options with Pull Requests.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/10. Demo- More Options with Pull Requests.vtt"
+						  },
+						  { 
+						  "name":" Demo- Setting the Default Branch",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/11. Demo- Setting the Default Branch.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/11. Demo- Setting the Default Branch.vtt"
+						  },
+						  { 
+						  "name":" Forking a Repository",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/12. Forking a Repository.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/12. Forking a Repository.vtt"
+						  },
+						  { 
+						  "name":" Demo- Forking a Repository",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/13. Demo- Forking a Repository.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/13. Demo- Forking a Repository.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/14. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/04. Collaborating Using the GitHub Flow/14. Summary.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"05. Tracking Issues and Creating Releases",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Working with Issues",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/01. Working with Issues.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/01. Working with Issues.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with Issues",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/02. Demo- Working with Issues.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/02. Demo- Working with Issues.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating an Issue Template",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/03. Demo- Creating an Issue Template.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/03. Demo- Creating an Issue Template.vtt"
+						  },
+						  { 
+						  "name":" Creating a Milestone",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/04. Creating a Milestone.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/04. Creating a Milestone.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working Towards a Milestone",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/05. Demo- Working Towards a Milestone.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/05. Demo- Working Towards a Milestone.vtt"
+						  },
+						  { 
+						  "name":" Adding Tags",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/06. Adding Tags.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/06. Adding Tags.vtt"
+						  },
+						  { 
+						  "name":" Demo- Adding Tags",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/07. Demo- Adding Tags.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/07. Demo- Adding Tags.vtt"
+						  },
+						  { 
+						  "name":" Publishing a Release",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/08. Publishing a Release.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/08. Publishing a Release.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/09. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/05. Tracking Issues and Creating Releases/09. Summary.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"06. Creating a GitHub Wiki",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Creating a Wiki",
+						  "video":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/01. Creating a Wiki.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/01. Creating a Wiki.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating a Wiki on GitHub",
+						  "video":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/02. Demo- Creating a Wiki on GitHub.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/02. Demo- Creating a Wiki on GitHub.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/03. Summary.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/06. Creating a GitHub Wiki/03. Summary.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"07. Working with Social Features",
+			  "videos":[ 
+						  { 
+						  "name":" Module Introduction",
+						  "video":"Git/GitHub- Getting Started/07. Working with Social Features/00. Module Introduction.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/07. Working with Social Features/00. Module Introduction.vtt"
+						  },
+						  { 
+						  "name":" Demo- Creating a Gist",
+						  "video":"Git/GitHub- Getting Started/07. Working with Social Features/01. Demo- Creating a Gist.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/07. Working with Social Features/01. Demo- Creating a Gist.vtt"
+						  },
+						  { 
+						  "name":" Demo- Working with GitHub Projects",
+						  "video":"Git/GitHub- Getting Started/07. Working with Social Features/02. Demo- Working with GitHub Projects.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/07. Working with Social Features/02. Demo- Working with GitHub Projects.vtt"
+						  },
+						  { 
+						  "name":" Demo- Publishing Information Using GitHub Pages",
+						  "video":"Git/GitHub- Getting Started/07. Working with Social Features/03. Demo- Publishing Information Using GitHub Pages.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/07. Working with Social Features/03. Demo- Publishing Information Using GitHub Pages.vtt"
+						  },
+						  { 
+						  "name":" Summary and Course Closing",
+						  "video":"Git/GitHub- Getting Started/07. Working with Social Features/04. Summary and Course Closing.mp4",
+						  "subtitle":"Git/GitHub- Getting Started/07. Working with Social Features/04. Summary and Course Closing.vtt"
+						  }
+						  ]
+					  }
+		]
+	  },
+	   {
+		"name": "Git - Adopting an InnerSource Culture with GitHub", 
+		"color": "#BCCEF4",
+		"list":[
 				{
-				"chapter":"00. Course Overview",
-				"videos":[ 
-				            { 
-				            "name":" Course Overview",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/00. Course Overview/00. Course Overview.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/00. Course Overview/00. Course Overview.vtt"
-				            }
-				        ]
-				},
-				{
-				"chapter":"01. Understanding Resource Adaptability",
-				"videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" Resource Purpose and Interaction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/01. Resource Purpose and Interaction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/01. Resource Purpose and Interaction.vtt"
-				            },
-				            { 
-				            "name":" Our Demo App",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/02. Our Demo App.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/02. Our Demo App.vtt"
-				            },
-				            { 
-				            "name":" Using and Accessing Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/03. Using and Accessing Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/03. Using and Accessing Resources.vtt"
-				            },
-				            { 
-				            "name":" When Sythesized Properties Aren't Enough",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/04. When Sythesized Properties Aren't Enough.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/04. When Sythesized Properties Aren't Enough.vtt"
-				            },
-				            { 
-				            "name":" Resource Adaptability",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/05. Resource Adaptability.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/05. Resource Adaptability.vtt"
-				            },
-				            { 
-				            "name":" Adapting to Configuration Changes",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/06. Adapting to Configuration Changes.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/06. Adapting to Configuration Changes.vtt"
-				            },
-				            { 
-				            "name":" Creating a Layout Resource Landscape Variation",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/07. Creating a Layout Resource Landscape Variation.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/07. Creating a Layout Resource Landscape Variation.vtt"
-				            },
-				            { 
-				            "name":" Customizing the Layout Variation",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/08. Customizing the Layout Variation.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/08. Customizing the Layout Variation.vtt"
-				            },
-				            { 
-				            "name":" Understanding How Adaptability Works",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/09. Understanding How Adaptability Works.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/09. Understanding How Adaptability Works.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/10. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/01. Understanding Resource Adaptability/10. Summary.vtt"
-				            }
-				            ]
-				            },
-				            {
-				            "chapter":"02. Creating Drawable Resources",
-				            "videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" Drawable Resources Come in Many Forms",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/01. Drawable Resources Come in Many Forms.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/01. Drawable Resources Come in Many Forms.vtt"
-				            },
-				            { 
-				            "name":" Creating a Shape Resource",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/02. Creating a Shape Resource.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/02. Creating a Shape Resource.vtt"
-				            },
-				            { 
-				            "name":" Enhancing the Shape Resource Appearance",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/03. Enhancing the Shape Resource Appearance.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/03. Enhancing the Shape Resource Appearance.vtt"
-				            },
-				            { 
-				            "name":" Working with Vector Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/04. Working with Vector Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/04. Working with Vector Resources.vtt"
-				            },
-				            { 
-				            "name":" Vector Resources and Scaling",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/05. Vector Resources and Scaling.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/05. Vector Resources and Scaling.vtt"
-				            },
-				            { 
-				            "name":" Comparing Shape, Vector, and Rastor Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/06. Comparing Shape, Vector, and Rastor Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/06. Comparing Shape, Vector, and Rastor Resources.vtt"
-				            },
-				            { 
-				            "name":" Dealing with Display Densities",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/07. Dealing with Display Densities.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/07. Dealing with Display Densities.vtt"
-				            },
-				            { 
-				            "name":" Display Density-specific Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/08. Display Density-specific Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/08. Display Density-specific Resources.vtt"
-				            },
-				            { 
-				            "name":" Creating Qualified Resource Directories",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/09. Creating Qualified Resource Directories.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/09. Creating Qualified Resource Directories.vtt"
-				            },
-				            { 
-				            "name":" Resource Installation",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/10. Resource Installation.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/10. Resource Installation.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/11. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/02. Creating Drawable Resources/11. Summary.vtt"
-				            }
-				        ]
-				},
-				{
-				"chapter":"03. Specifying Values Resources",
-				"videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" Declaring and Organizing Values Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/01. Declaring and Organizing Values Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/01. Declaring and Organizing Values Resources.vtt"
-				            },
-				            { 
-				            "name":" Creating a Color Resource",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/02. Creating a Color Resource.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/02. Creating a Color Resource.vtt"
-				            },
-				            { 
-				            "name":" Sizing Content with Dimension Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/03. Sizing Content with Dimension Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/03. Sizing Content with Dimension Resources.vtt"
-				            },
-				            { 
-				            "name":" Accessibility-friendly Font Sizing",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/04. Accessibility-friendly Font Sizing.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/04. Accessibility-friendly Font Sizing.vtt"
-				            },
-				            { 
-				            "name":" Resources in Code",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/05. Resources in Code.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/05. Resources in Code.vtt"
-				            },
-				            { 
-				            "name":" Using Integer Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/06. Using Integer Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/06. Using Integer Resources.vtt"
-				            },
-				            { 
-				            "name":" Adapting to Display Differences",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/07. Adapting to Display Differences.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/07. Adapting to Display Differences.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/08. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/03. Specifying Values Resources/08. Summary.vtt"
-				            }
-				           ]
-				},
-				{
-				"chapter":"04. Using Strings and String Localization",
-				"videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" A Quick Look at String Resources",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/01. A Quick Look at String Resources.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/01. A Quick Look at String Resources.vtt"
-				            },
-				            { 
-				            "name":" String Resources in the Project",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/02. String Resources in the Project.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/02. String Resources in the Project.vtt"
-				            },
-				            { 
-				            "name":" Converting Literal Strings to Resources in Layouts",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/03. Converting Literal Strings to Resources in Layouts.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/03. Converting Literal Strings to Resources in Layouts.vtt"
-				            },
-				            { 
-				            "name":" String Resources in Code",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/04. String Resources in Code.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/04. String Resources in Code.vtt"
-				            },
-				            { 
-				            "name":" Accessing String Resources from Code",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/05. Accessing String Resources from Code.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/05. Accessing String Resources from Code.vtt"
-				            },
-				            { 
-				            "name":" String Resources with Value Substitution",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/06. String Resources with Value Substitution.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/06. String Resources with Value Substitution.vtt"
-				            },
-				            { 
-				            "name":" Localizing UI Text into Alternate Languages",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/07. Localizing UI Text into Alternate Languages.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/07. Localizing UI Text into Alternate Languages.vtt"
-				            },
-				            { 
-				            "name":" Verifying Localized Text Behavior",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/08. Verifying Localized Text Behavior.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/08. Verifying Localized Text Behavior.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/09. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/04. Using Strings and String Localization/09. Summary.vtt"
-				            }
-				          ]
-				},
-				{
-				"chapter":"05. Providing Custom Display Characteristics with Styles",
-				"videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" Android View Attributes",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/01. Android View Attributes.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/01. Android View Attributes.vtt"
-				            },
-				            { 
-				            "name":" View Styles",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/02. View Styles.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/02. View Styles.vtt"
-				            },
-				            { 
-				            "name":" Applying Styles to textAppearance",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/03. Applying Styles to textAppearance.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/03. Applying Styles to textAppearance.vtt"
-				            },
-				            { 
-				            "name":" Declaring a New Style",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/04. Declaring a New Style.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/04. Declaring a New Style.vtt"
-				            },
-				            { 
-				            "name":" Style Inheritance",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/05. Style Inheritance.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/05. Style Inheritance.vtt"
-				            },
-				            { 
-				            "name":" Inheriting a Framework Style",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/06. Inheriting a Framework Style.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/06. Inheriting a Framework Style.vtt"
-				            },
-				            { 
-				            "name":" Inheriting a Project Style",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/07. Inheriting a Project Style.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/07. Inheriting a Project Style.vtt"
-				            },
-				            { 
-				            "name":" Creating a Floating Action Button Style",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/08. Creating a Floating Action Button Style.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/08. Creating a Floating Action Button Style.vtt"
-				            },
-				            { 
-				            "name":" Finding the Floating Action Button Parent Style",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/09. Finding the Floating Action Button Parent Style.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/09. Finding the Floating Action Button Parent Style.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/10. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/05. Providing Custom Display Characteristics with Styles/10. Summary.vtt"
-				            }
-				         ]
-				},
-				{
-				"chapter":"06. Customizing App Appearance with Themes",
-				"videos":[ 
-				            { 
-				            "name":" Introduction",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/00. Introduction.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/00. Introduction.vtt"
-				            },
-				            { 
-				            "name":" Applying and Declaring Themes",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/01. Applying and Declaring Themes.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/01. Applying and Declaring Themes.vtt"
-				            },
-				            { 
-				            "name":" Understanding the App's Themes",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/02. Understanding the App's Themes.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/02. Understanding the App's Themes.vtt"
-				            },
-				            { 
-				            "name":" Exploring Theme Builder",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/03. Exploring Theme Builder.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/03. Exploring Theme Builder.vtt"
-				            },
-				            { 
-				            "name":" Changing Theme Branding",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/04. Changing Theme Branding.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/04. Changing Theme Branding.vtt"
-				            },
-				            { 
-				            "name":" Using Resource References in a Theme",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/05. Using Resource References in a Theme.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/05. Using Resource References in a Theme.vtt"
-				            },
-				            { 
-				            "name":" Verifying Branding Behavior",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/06. Verifying Branding Behavior.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/06. Verifying Branding Behavior.vtt"
-				            },
-				            { 
-				            "name":" Applying Theme-wide Attributes",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/07. Applying Theme-wide Attributes.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/07. Applying Theme-wide Attributes.vtt"
-				            },
-				            { 
-				            "name":" Setting Theme-specific View Styles",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/08. Setting Theme-specific View Styles.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/08. Setting Theme-specific View Styles.vtt"
-				            },
-				            { 
-				            "name":" Summary",
-				            "video":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/09. Summary.mp4",
-				            "subtitle":"programming/Android/Android Apps with Kotlin- Resources, Styles, and Themes/06. Customizing App Appearance with Themes/09. Summary.vtt"
-				            }
-				        ]
-				}
-           ]
-    },
-    {
-      "name": "Machine learning - Building your first machine learning solutions", 
-      "color": "#BCCEF4",
-      "list":
-           [ 
-           	 {
-                "chapter":"Building your first machine learning solutions",
-	            "videos":[ 
-				            { 
-				            "name":" Getting your feet ready to run",
-				            "video":"machine_learning/Building your first machine learning solutions/1. Getting your feet ready to run.mkv"
-				            },
-				            { 
-				            "name":" Feeding your machine learning pipeline",
-				            "video":"machine_learning/Building your first machine learning solutions/2. Feeding your machine learning pipeline.mkv"
-				            },
-				            { 
-				            "name":" Understanding the overall data trends",
-				            "video":"machine_learning/Building your first machine learning solutions/3. Understanding the overall data trends.mkv"
-				            },
-				            { 
-				            "name":" Making your data ready for the ML model",
-				            "video":"machine_learning/Building your first machine learning solutions/4. Making your data ready for the ML model.mkv"
-				            },
-				            { 
-				            "name":" Implementing your regression solution",
-				            "video":"machine_learning/Building your first machine learning solutions/5. Implementing your regression solution.mkv"
-				            },
-				            { 
-				            "name":" What is next",
-				            "video":"machine_learning/Building your first machine learning solutions/6. What is next.mkv"
-				            }
-                   ]
-
-              }
-           ]
-    }
+  "chapter":"00. Course Overview",
+  "videos":[ 
+			  { 
+						  "name":" Course Overview",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/00. Course Overview/00. Course Overview.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/00. Course Overview/00. Course Overview.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"01. Why Companies Are Adopting InnerSource-",
+			  "videos":[ 
+						  { 
+						  "name":" Introduction",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/00. Introduction.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/00. Introduction.vtt"
+						  },
+						  { 
+						  "name":" What Is InnerSource-",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/01. What Is InnerSource-.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/01. What Is InnerSource-.vtt"
+						  },
+						  { 
+						  "name":" InnerSource vs",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/02. InnerSource vs. Open Source.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/02. InnerSource vs. Open Source.vtt"
+						  },
+						  { 
+						  "name":" The Anatomy of an InnerSource Project",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/03. The Anatomy of an InnerSource Project.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/03. The Anatomy of an InnerSource Project.vtt"
+						  },
+						  { 
+						  "name":" Customer Stories",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/04. Customer Stories.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/04. Customer Stories.vtt"
+						  },
+						  { 
+						  "name":" InnerSource Fundamentals on GitHub Learning Lab",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/05. InnerSource Fundamentals on GitHub Learning Lab.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/05. InnerSource Fundamentals on GitHub Learning Lab.vtt"
+						  },
+						  { 
+						  "name":" Demo- Complete the InnerSource Fundamentals Course",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/06. Demo- Complete the InnerSource Fundamentals Course.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/06. Demo- Complete the InnerSource Fundamentals Course.vtt"
+						  },
+						  { 
+						  "name":" Breaking Down Silos",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/07. Breaking Down Silos.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/07. Breaking Down Silos.vtt"
+						  },
+						  { 
+						  "name":" Why GitHub Is Uniquely Positioned",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/08. Why GitHub Is Uniquely Positioned.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/01. Why Companies Are Adopting InnerSource-/08. Why GitHub Is Uniquely Positioned.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"02. Applying InnerSource Practices",
+			  "videos":[ 
+						  { 
+						  "name":" How Can You InnerSource-",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/00. How Can You InnerSource-.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/00. How Can You InnerSource-.vtt"
+						  },
+						  { 
+						  "name":" The 3 Lenses of InnerSource",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/01. The 3 Lenses of InnerSource.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/01. The 3 Lenses of InnerSource.vtt"
+						  },
+						  { 
+						  "name":" Lense 1- Culture",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/02. Lense 1- Culture.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/02. Lense 1- Culture.vtt"
+						  },
+						  { 
+						  "name":" Understanding Cultural Ingredients",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/03. Understanding Cultural Ingredients.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/03. Understanding Cultural Ingredients.vtt"
+						  },
+						  { 
+						  "name":" The Emperor's New Clothes Test",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/04. The Emperor's New Clothes Test.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/04. The Emperor's New Clothes Test.vtt"
+						  },
+						  { 
+						  "name":" Demo- Add Culture Content to Toolkit",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/05. Demo- Add Culture Content to Toolkit.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/05. Demo- Add Culture Content to Toolkit.vtt"
+						  },
+						  { 
+						  "name":" Lense 2- Developer Enablement",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/06. Lense 2- Developer Enablement.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/06. Lense 2- Developer Enablement.vtt"
+						  },
+						  { 
+						  "name":" Contributor Friction",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/07. Contributor Friction.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/07. Contributor Friction.vtt"
+						  },
+						  { 
+						  "name":" The Trusted Committer Role (TC)",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/08. The Trusted Committer Role (TC).mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/08. The Trusted Committer Role (TC).vtt"
+						  },
+						  { 
+						  "name":" Demo- Add Developer Enablement Content to Toolkit",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/09. Demo- Add Developer Enablement Content to Toolkit.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/02. Applying InnerSource Practices/09. Demo- Add Developer Enablement Content to Toolkit.vtt"
+						  }
+						  ]
+			  },
+			  {
+			  "chapter":"03. Customize a Checklist for Measuring Success",
+			  "videos":[ 
+						  { 
+						  "name":" Lens 3- Governance",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/00. Lens 3- Governance.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/00. Lens 3- Governance.vtt"
+						  },
+						  { 
+						  "name":" Blueprint for Success",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/01. Blueprint for Success.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/01. Blueprint for Success.vtt"
+						  },
+						  { 
+						  "name":" GitHub Metrics and Checklists",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/02. GitHub Metrics and Checklists.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/02. GitHub Metrics and Checklists.vtt"
+						  },
+						  { 
+						  "name":" Demo- Add Success Metrics to Toolkit",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/03. Demo- Add Success Metrics to Toolkit.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/03. Demo- Add Success Metrics to Toolkit.vtt"
+						  },
+						  { 
+						  "name":" Summary",
+						  "video":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/04. Summary.mp4",
+						  "subtitle":"Git/Adopting an InnerSource Culture with GitHub/03. Customize a Checklist for Measuring Success/04. Summary.vtt"
+						  }
+						  ]
+			  }
   
-
-  ]
-}
+			   ]
+	   },
+	   {
+		"name": "IOS -Swift Fundamentals", 
+		"color": "#BCCEF4",
+		"list":[
+				   {
+					  "chapter":"Swift Fundamentals",
+					  "videos":[ 
+								  { 
+								  "name":"1. Piece by piece What your data means",
+								  "video":"IOS/Swift Fundamentals/2. piece by piece What your data means.mkv"
+								  },
+								  { 
+								  "name":"2. Shaping the path controlling the flow of your code",
+								  "video":"IOS/Swift Fundamentals/3. Shaping the path controlling the flow of your code.mkv"
+								  },
+								  { 
+								  "name":"3. Constructing code who does what creating functions",
+								  "video":"IOS/Swift Fundamentals/4. Constructing code who does what creating functions.mkv"
+								  },
+								  { 
+								  "name":"4. Taking data types further when to limit, describe an collect",
+								  "video":"IOS/Swift Fundamentals/5. Taking data types further when to limit, describe an collect.mkv"
+								  },
+								  { 
+								  "name":"5. Making sense of closures",
+								  "video":"IOS/Swift Fundamentals/6. Making sense of closures.mkv"
+								  },
+								  { 
+								  "name":"6. Using classes and objects in swift",
+								  "video":"IOS/Swift Fundamentals/7. Using classes and objects in swift.mkv"
+								  },
+								  { 
+								  "name":"7. Introducing protocols",
+								  "video":"IOS/Swift Fundamentals/8. Introducing protocols.mkv"
+								  },
+								  { 
+								  "name":"A few more reasons to learn swift",
+								  "video":"IOS/Swift Fundamentals/A few more reasons to learn swift.mkv"
+								  }
+							  ]
+					  }
+  
+			   ]
+	   },
+		{
+		"name": "IOS -Networking with REST APIS", 
+		"color": "#BCCEF4",
+		"list":[
+				  {
+				  "chapter":"Networking with REST APIS",
+				  "videos":[ 
+							  { 
+							  "name":"1.Introduction",
+							  "video":"IOS/Networking with REST APIS/1.Introduction.mp4"
+							  },
+							  { 
+							  "name":"2. Fetching API DATA",
+							  "video":"IOS/Networking with REST APIS/2. Fetching API DATA.mp4"
+							  },
+							  { 
+							  "name":"3. Creating codable data models",
+							  "video":"IOS/Networking with REST APIS/3. Creating codable data models.mp4"
+							  },
+							  { 
+							  "name":"4. CRUD",
+							  "video":"IOS/Networking with REST APIS/4. CRUD.mp4"
+							  },
+							  { 
+							  "name":"5. Task sessions and queues",
+							  "video":"IOS/Networking with REST APIS/5. Task sessions and queues.mp4"
+							  }
+						  ]
+				  }
+			   ]
+		},
+		 {
+		"name": "IOS -Becoming and xcode power user", 
+		"color": "#BCCEF4",
+		"list":[
+					{
+				  "chapter":"Becoming and xcode power user",
+				  "videos":[ 
+							  { 
+							  "name":"1. Managing Projects and workspaces in xcode",
+							  "video":"IOS/Becoming and xcode power user/1. Managing Projects and workspaces in xcode.mkv"
+							  },
+							  { 
+							  "name":"2. Building xcode projects configuring schemes and targets",
+							  "video":"IOS/Becoming and xcode power user/2. Building xcode projects configuring schemes and targets.mkv"
+							  },
+							  { 
+							  "name":"3. Navigating through xcode finding your workflow",
+							  "video":"IOS/Becoming and xcode power user/3. Navigating through xcode finding your workflow.mkv"
+							  },
+							  { 
+							  "name":"4. Productivity in xcode",
+							  "video":"IOS/Becoming and xcode power user/4. Productivity in xcode.mkv"
+							  },
+							  { 
+							  "name":"5. Source control in xcode",
+							  "video":"IOS/Becoming and xcode power user/5. Source control in xcode.mkv"
+							  },
+							  { 
+							  "name":"6. Configuring and customizing xcode with key bindings and behaviors",
+							  "video":"IOS/Becoming and xcode power user/6. Configuring and customizing xcode with key bindings and behaviors.mkv"
+							  },
+							  { 
+							  "name":"7. Making xcode work for you with code snippets and documentation",
+							  "video":"IOS/Becoming and xcode power user/7. Making xcode work for you with code snippets and documentation.mkv"
+							  }
+							 ]
+					  }
+  
+			   ]
+		},
+		{
+		"name": "IOS -Objective-c for swift developers", 
+		"color": "#BCCEF4",
+		"list":[
+				 {
+				  "chapter":"Objective-c for swift developers",
+				  "videos":[ 
+							  { 
+							  "name":"1. Introduction",
+							  "video":"IOS/Objective-c for swift developers/1. Introduction.mp4"
+							  },
+							  { 
+							  "name":"1.1 Objects cicle",
+							  "video":"IOS/Objective-c for swift developers/1.1 Objects cicle.mp4"
+							  },
+							  { 
+							  "name":"1.2 Working with objects",
+							  "video":"IOS/Objective-c for swift developers/1.1 Working with objects.mp4"
+							  },
+							  { 
+							  "name":" Enhancing clases",
+							  "video":"IOS/Objective-c for swift developers/2. Enhancing clases.mkv"
+							  },
+							  { 
+							  "name":" Integrating objective-c wiht swift",
+							  "video":"IOS/Objective-c for swift developers/3. Integrating objective-c wiht swift.mkv"
+							  }
+						  ]
+				  }
+			   ]
+		},
+		{
+		"name": "IOS -IOS Auto Layout Fundamentals", 
+		"color": "#BCCEF4",
+		"list":[
+				   {
+						  "chapter":"00. Course Overview",
+						  "videos":[ 
+									  { 
+									  "name":" Course Overview",
+									  "video":"IOS/IOS Auto Layout Fundamentals/00. Course Overview/00. Course Overview.mp4"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"01. Introducing Auto Layout",
+						  "videos":[ 
+										  { 
+										  "name":" Too Many Screens",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/00. Too Many Screens.mp4"
+										  },
+										  { 
+										  "name":" Who Is this Course For-",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/01. Who Is this Course For-.mp4"
+										  },
+										  { 
+										  "name":" Course Overview",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/02. Course Overview.mp4"
+										  },
+										  { 
+										  "name":" Module Overview",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/03. Module Overview.mp4"
+										  },
+										  { 
+										  "name":" Autoresizing Masks and Frames",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/04. Autoresizing Masks and Frames.mp4"
+										  },
+										  { 
+										  "name":" The Benefits of Auto Layout",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/05. The Benefits of Auto Layout.mp4"
+										  },
+										  { 
+										  "name":" What Will You Build-",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/06. What Will You Build-.mp4"
+										  },
+										  { 
+										  "name":" Setting up the Project",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/07. Setting up the Project.mp4"
+										  },
+										  { 
+										  "name":" Summary",
+										  "video":"IOS/IOS Auto Layout Fundamentals/01. Introducing Auto Layout/08. Summary.mp4"
+										  }
+										  ]
+						  },
+						  {
+						  "chapter":"02. Understanding Constraints, Relations, and Priorities",
+						  "videos":[ 
+													  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" Constraints",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/01. Constraints.mp4"
+													  },
+													  { 
+													  "name":" The Constraint's Key Components",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/02. The Constraint's Key Components.mp4"
+													  },
+													  { 
+													  "name":" Building Constraints",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/03. Building Constraints.mp4"
+													  },
+													  { 
+													  "name":" Your Mission- Satisfy the Constraints",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/04. Your Mission- Satisfy the Constraints.mp4"
+													  },
+													  { 
+													  "name":" The Linear Equation",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/05. The Linear Equation.mp4"
+													  },
+													  { 
+													  "name":" Constraint Demo",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/06. Constraint Demo.mp4"
+													  },
+													  { 
+													  "name":" Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/02. Understanding Constraints, Relations, and Priorities/07. Summary.mp4"
+													  }
+													  ]
+						  },
+						  {
+						  "chapter":"03. Diving into Interface Builder and NSLayoutConstraint",
+						  "videos":[ 
+													  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" Auto Layout Tools in Interface Builder",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/01. Auto Layout Tools in Interface Builder.mp4"
+													  },
+													  { 
+													  "name":" Laying out the Splash Screen",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/02. Laying out the Splash Screen.mp4"
+													  },
+													  { 
+													  "name":" NSLayoutConstraint API",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/03. NSLayoutConstraint API.mp4"
+													  },
+													  { 
+													  "name":" Laying out the Splash Screen with NSLayoutConstraint",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/04. Laying out the Splash Screen with NSLayoutConstraint.mp4"
+													  },
+													  { 
+													  "name":" Building the Menu Screen",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/05. Building the Menu Screen.mp4"
+													  },
+													  { 
+													  "name":" Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/03. Diving into Interface Builder and NSLayoutConstraint/06. Summary.mp4"
+													  }
+													  ]
+						  },
+						  {
+						  "chapter":"04. Controlling Auto Layout's Rendering Pipeline",
+						  "videos":[ 
+													  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" The Rendering Pipeline",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/01. The Rendering Pipeline.mp4"
+													  },
+													  { 
+													  "name":" Hooking into the Pipeline",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/02. Hooking into the Pipeline.mp4"
+													  },
+													  { 
+													  "name":" Setting up the Venn Diagram",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/03. Setting up the Venn Diagram.mp4"
+													  },
+													  { 
+													  "name":" Laying out the Venn Diagram",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/04. Laying out the Venn Diagram.mp4"
+													  },
+													  { 
+													  "name":" Breaking Down the Venn Diagram",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/05. Breaking Down the Venn Diagram.mp4"
+													  },
+													  { 
+													  "name":" UIViewController- Layout Subviews",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/06. UIViewController- Layout Subviews.mp4"
+													  },
+													  { 
+													  "name":" Translates Autoresizing Into Masks",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/07. Translates Autoresizing Into Masks.mp4"
+													  },
+													  { 
+													  "name":" Autoresizing Mask in Venn Diagram",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/08. Autoresizing Mask in Venn Diagram.mp4"
+													  },
+													  { 
+													  "name":" Fixing the Venn Diagram",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/09. Fixing the Venn Diagram.mp4"
+													  },
+													  { 
+													  "name":" Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/04. Controlling Auto Layout's Rendering Pipeline/10. Summary.mp4"
+													  }
+													  ]
+						  },
+						  {
+						  "chapter":"05. Creating Custom Views with Auto Layout",
+						  "videos":[ 
+													  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" Laying Out the Custom View",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/01. Laying Out the Custom View.mp4"
+													  },
+													  { 
+													  "name":" Applying Update Constraints",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/02. Applying Update Constraints.mp4"
+													  },
+													  { 
+													  "name":" Intrinsic Content Size",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/03. Intrinsic Content Size.mp4"
+													  },
+													  { 
+													  "name":" Profile View's Intrinsic Content Size",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/04. Profile View's Intrinsic Content Size.mp4"
+													  },
+													  { 
+													  "name":" Frame vs Alignment Rect",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/05. Frame vs Alignment Rect.mp4"
+													  },
+													  { 
+													  "name":" Adjusting Profile View's Frame",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/06. Adjusting Profile View's Frame.mp4"
+													  },
+													  { 
+													  "name":" Modifying the Baseline Alignment",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/07. Modifying the Baseline Alignment.mp4"
+													  },
+													  { 
+													  "name":" Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/05. Creating Custom Views with Auto Layout/08. Summary.mp4"
+													  }
+													  ]
+						  },
+						  {
+						  "chapter":"06. Leveraging Content Hugging and Compression Resistance",
+						  "videos":[ 
+													  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" Content Hugging and Compression Resistance",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/01. Content Hugging and Compression Resistance.mp4"
+													  },
+													  { 
+													  "name":" Controlling Hugging and Resistance in Code",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/02. Controlling Hugging and Resistance in Code.mp4"
+													  },
+													  { 
+													  "name":" Demo- Content Hugging",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/03. Demo- Content Hugging.mp4"
+													  },
+													  { 
+													  "name":" Demo- Compression Resistance",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/04. Demo- Compression Resistance.mp4"
+													  },
+													  { 
+													  "name":" Reviewing Auto Layout's Pipeline",
+													  "video":"IOS/IOS Auto Layout Fundamentals/06. Leveraging Content Hugging and Compression Resistance/05. Reviewing Auto Layout's Pipeline.mp4"
+													  }
+													  ]
+													  },
+													  {
+							  "chapter":"07. Simplicity with UIStackView, Anchors, and Activating Constraints",
+							  "videos":[ 
+							  { 
+													  "name":" Introduction",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/00. Introduction.mp4"
+													  },
+													  { 
+													  "name":" NSLayoutConstraint's Active Property",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/01. NSLayoutConstraint's Active Property.mp4"
+													  },
+													  { 
+													  "name":" Anchors and Dimensions",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/02. Anchors and Dimensions.mp4"
+													  },
+													  { 
+													  "name":" Update Your Profile View's Internal Constraints",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/03. Update Your Profile View's Internal Constraints.mp4"
+													  },
+													  { 
+													  "name":" UIStackView Playground",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/04. UIStackView Playground.mp4"
+													  },
+													  { 
+													  "name":" Updating Your Menu with UIStackView",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/05. Updating Your Menu with UIStackView.mp4"
+													  },
+													  { 
+													  "name":" Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/06. Summary.mp4"
+													  },
+													  { 
+													  "name":" Course Summary",
+													  "video":"IOS/IOS Auto Layout Fundamentals/07. Simplicity with UIStackView, Anchors, and Activating Constraints/07. Course Summary.mp4"
+									  }
+									  ]
+						  }
+			   ]
+		},
+		 {
+			"name": "PostgreSQL -PostgreSQL Playbook for Developer DBAs", 
+			"color": "#BCCEF4",
+			"list":[
+					 {
+						  "chapter":"00. Course Overview",
+						  "videos":[ 
+									  { 
+									  "name":" Course Overview",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/00. Course Overview/00. Course Overview.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/00. Course Overview/00. Course Overview.vtt"
+									  }
+									]
+						  },
+						  {
+						  "chapter":"01. Introduction",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/01. Introduction/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/01. Introduction/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Tools",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/01. Introduction/01. Tools.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/01. Introduction/01. Tools.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"02. Optimizing Your Hardware",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Out of the Office",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/01. Out of the Office.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/01. Out of the Office.vtt"
+									  },
+									  { 
+									  "name":" Hardware and OS",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/02. Hardware and OS.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/02. Hardware and OS.vtt"
+									  },
+									  { 
+									  "name":" DigitalOcean",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/03. DigitalOcean.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/03. DigitalOcean.vtt"
+									  },
+									  { 
+									  "name":" Installing PostgreSQL",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/04. Installing PostgreSQL.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/02. Optimizing Your Hardware/04. Installing PostgreSQL.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"03. Locking Things Down",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Setting up Accounts",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/01. Setting up Accounts.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/01. Setting up Accounts.vtt"
+									  },
+									  { 
+									  "name":" Remote Access",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/02. Remote Access.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/02. Remote Access.vtt"
+									  },
+									  { 
+									  "name":" Setting up a Superuser",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/03. Setting up a Superuser.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/03. Setting up a Superuser.vtt"
+									  },
+									  { 
+									  "name":" Setting up an App Account",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/04. Setting up an App Account.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/03. Locking Things Down/04. Setting up an App Account.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"04. Backing up and Restoring",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Moving the Data",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/01. Moving the Data.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/01. Moving the Data.vtt"
+									  },
+									  { 
+									  "name":" A Simple Backup",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/02. A Simple Backup.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/02. A Simple Backup.vtt"
+									  },
+									  { 
+									  "name":" A Simple CRON Job",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/03. A Simple CRON Job.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/03. A Simple CRON Job.vtt"
+									  },
+									  { 
+									  "name":" A Backup Script",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/04. A Backup Script.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/04. A Backup Script.vtt"
+									  },
+									  { 
+									  "name":" Pushing to AWS",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/05. Pushing to AWS.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/04. Backing up and Restoring/05. Pushing to AWS.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"05. Understanding Your Server",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Using pgbench",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/01. Using pgbench.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/01. Using pgbench.vtt"
+									  },
+									  { 
+									  "name":" Benchmarking a Big Machine",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/02. Benchmarking a Big Machine.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/05. Understanding Your Server/02. Benchmarking a Big Machine.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"06. Tuning Your Server",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/06. Tuning Your Server/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/06. Tuning Your Server/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Configuration Tweaks",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/06. Tuning Your Server/01. Configuration Tweaks.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/06. Tuning Your Server/01. Configuration Tweaks.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"07. Letting PostgreSQL Tell Us What's Wrong",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Installing pg_stat_statements",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/01. Installing pg_stat_statements.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/01. Installing pg_stat_statements.vtt"
+									  },
+									  { 
+									  "name":" Top Queries",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/02. Top Queries.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/02. Top Queries.vtt"
+									  },
+									  { 
+									  "name":" Cache Usage",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/03. Cache Usage.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/03. Cache Usage.vtt"
+									  },
+									  { 
+									  "name":" Index Usage",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/04. Index Usage.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/07. Letting PostgreSQL Tell Us What's Wrong/04. Index Usage.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"08. Fixing Slow Queries",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Explain and Analyze",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/01. Explain and Analyze.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/01. Explain and Analyze.vtt"
+									  },
+									  { 
+									  "name":" Creating an Index",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/02. Creating an Index.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/02. Creating an Index.vtt"
+									  },
+									  { 
+									  "name":" Thinking About Indexing",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/03. Thinking About Indexing.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/03. Thinking About Indexing.vtt"
+									  },
+									  { 
+									  "name":" Conditional Indexes",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/04. Conditional Indexes.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/08. Fixing Slow Queries/04. Conditional Indexes.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"09. Optimizing Textual Queries",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" Indexing Text",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/01. Indexing Text.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/01. Indexing Text.vtt"
+									  },
+									  { 
+									  "name":" Using Full Text Search",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/02. Using Full Text Search.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/09. Optimizing Textual Queries/02. Using Full Text Search.vtt"
+									  }
+									  ]
+						  },
+						  {
+						  "chapter":"10. Hosted Solutions",
+						  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/00. Introduction.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/00. Introduction.vtt"
+									  },
+									  { 
+									  "name":" AWS",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/01. AWS.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/01. AWS.vtt"
+									  },
+									  { 
+									  "name":" Heroku",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/02. Heroku.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/02. Heroku.vtt"
+									  },
+									  { 
+									  "name":" Compose",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/03. Compose.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/03. Compose.vtt"
+									  },
+									  { 
+									  "name":" Summary and Farewell",
+									  "video":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/04. Summary and Farewell.mp4",
+									  "subtitle":"postgresql/PostgreSQL Playbook for Developer DBAs/10. Hosted Solutions/04. Summary and Farewell.vtt"
+									  }
+							   ]
+						  }
+				   ]
+		},
+		{
+			"name": "PostgreSQL -Index Tuning and Performance Optimization", 
+			"color": "#BCCEF4",
+			"list":[
+					  {
+  "chapter":"00. Course Overview",
+  "videos":[ 
+			  { 
+			  "name":" Course Overview",
+			  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/00. Course Overview/00. Course Overview.mp4"
+			  }
+			  ]
+			  },
+			  {
+			  "chapter":"01. PostgreSQL- Introduction",
+			  "videos":[ 
+							  { 
+							  "name":" Introduction",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/01. PostgreSQL- Introduction/00. Introduction.mp4"
+							  },
+							  { 
+							  "name":" Prerequisites and Agenda",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/01. PostgreSQL- Introduction/01. Prerequisites and Agenda.mp4"
+							  },
+							  { 
+							  "name":" Real World Scenario Introduction",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/01. PostgreSQL- Introduction/02. Real World Scenario Introduction.mp4"
+							  },
+							  { 
+							  "name":" Let's Start",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/01. PostgreSQL- Introduction/03. Let's Start.mp4"
+							  }
+							  ]
+			  },
+			  {
+			  "chapter":"02. PostgreSQL- Understanding Significance of EXPLAIN Keyword",
+			  "videos":[ 
+							  { 
+							  "name":" Introduction",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/00. Introduction.mp4"
+							  },
+							  { 
+							  "name":" What is EXPLAIN-",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/01. What is EXPLAIN-.mp4"
+							  },
+							  { 
+							  "name":" Various Options of EXPLAIN",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/02. Various Options of EXPLAIN.mp4"
+							  },
+							  { 
+							  "name":" Syntax of EXPLAIN",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/03. Syntax of EXPLAIN.mp4"
+							  },
+							  { 
+							  "name":" Demo- Environment Setup",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/04. Demo- Environment Setup.mp4"
+							  },
+							  { 
+							  "name":" Demo- Use Case Scenarios",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/05. Demo- Use Case Scenarios.mp4"
+							  },
+							  { 
+							  "name":" Demo- Query Plan and Cost",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/06. Demo- Query Plan and Cost.mp4"
+							  },
+							  { 
+							  "name":" Demo- Query Plan and Conditions",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/07. Demo- Query Plan and Conditions.mp4"
+							  },
+							  { 
+							  "name":" Demo- Query Plan and Advanced Conditions",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/08. Demo- Query Plan and Advanced Conditions.mp4"
+							  },
+							  { 
+							  "name":" Syntax of EXPLAIN ANALYZE",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/09. Syntax of EXPLAIN ANALYZE.mp4"
+							  },
+							  { 
+							  "name":" Demo- EXPLAIN ANALYZE",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/10. Demo- EXPLAIN ANALYZE.mp4"
+							  },
+							  { 
+							  "name":" Summary",
+							  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/02. PostgreSQL- Understanding Significance of EXPLAIN Keyword/11. Summary.mp4"
+							  }
+							  ]
+			  },
+			  {
+			  "chapter":"03. PostgreSQL- Improving Query Performance with Indexes",
+			  "videos":[ 
+								  { 
+								  "name":" Introduction",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/00. Introduction.mp4"
+								  },
+								  { 
+								  "name":" What is Index-",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/01. What is Index-.mp4"
+								  },
+								  { 
+								  "name":" Types of Indexes",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/02. Types of Indexes.mp4"
+								  },
+								  { 
+								  "name":" B-Tree Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/03. B-Tree Index.mp4"
+								  },
+								  { 
+								  "name":" B-Tree Index - Internal",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/04. B-Tree Index - Internal.mp4"
+								  },
+								  { 
+								  "name":" B-Tree Index - Advantages",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/05. B-Tree Index - Advantages.mp4"
+								  },
+								  { 
+								  "name":" B-Tree Index - Disadvantages",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/06. B-Tree Index - Disadvantages.mp4"
+								  },
+								  { 
+								  "name":" Index Syntax",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/07. Index Syntax.mp4"
+								  },
+								  { 
+								  "name":" Real World Scenario Setup",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/08. Real World Scenario Setup.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Index and Query Performance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/09. Scenario- Index and Query Performance.mp4"
+								  },
+								  { 
+								  "name":" Demo- Index and Query Performance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/10. Demo- Index and Query Performance.mp4"
+								  },
+								  { 
+								  "name":" Multicolumn Index and Cover Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/11. Multicolumn Index and Cover Index.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Multicolumn Index and Cover Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/12. Scenario- Multicolumn Index and Cover Index.mp4"
+								  },
+								  { 
+								  "name":" Demo- Setup Poor Performing Query",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/13. Demo- Setup Poor Performing Query.mp4"
+								  },
+								  { 
+								  "name":" Demo- Index and Improved Performance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/14. Demo- Index and Improved Performance.mp4"
+								  },
+								  { 
+								  "name":" Demo- Multicolumn Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/15. Demo- Multicolumn Index.mp4"
+								  },
+								  { 
+								  "name":" Demo- Order of Column in Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/16. Demo- Order of Column in Index.mp4"
+								  },
+								  { 
+								  "name":" Demo- Cover Index and Performance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/17. Demo- Cover Index and Performance.mp4"
+								  },
+								  { 
+								  "name":" Index Maintenance with REINDEX",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/18. Index Maintenance with REINDEX.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Index Maintenance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/19. Scenario- Index Maintenance.mp4"
+								  },
+								  { 
+								  "name":" Demo- Index Maintenance with REINDEX",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/20. Demo- Index Maintenance with REINDEX.mp4"
+								  },
+								  { 
+								  "name":" Summary",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/03. PostgreSQL- Improving Query Performance with Indexes/21. Summary.mp4"
+								  }
+								  ]
+			  },
+			  {
+			  "chapter":"04. PostgreSQL- Index Tuning for Complex Queries",
+			  "videos":[ 
+								  { 
+								  "name":" Introduction",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/00. Introduction.mp4"
+								  },
+								  { 
+								  "name":" What is Unique Index-",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/01. What is Unique Index-.mp4"
+								  },
+								  { 
+								  "name":" Real World Scenario",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/02. Real World Scenario.mp4"
+								  },
+								  { 
+								  "name":" Difference Between Key, Index, and Constraint",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/03. Difference Between Key, Index, and Constraint.mp4"
+								  },
+								  { 
+								  "name":" Unique Index Syntax",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/04. Unique Index Syntax.mp4"
+								  },
+								  { 
+								  "name":" Demo- Unique Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/05. Demo- Unique Index.mp4"
+								  },
+								  { 
+								  "name":" Demo- Primary Key Constraint and Catalog Tables",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/06. Demo- Primary Key Constraint and Catalog Tables.mp4"
+								  },
+								  { 
+								  "name":" Demo- Unique Constraint and Catalog Tables",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/07. Demo- Unique Constraint and Catalog Tables.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Case Insensitive Search",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/08. Scenario- Case Insensitive Search.mp4"
+								  },
+								  { 
+								  "name":" Demo- Case Insensitive Search",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/09. Demo- Case Insensitive Search.mp4"
+								  },
+								  { 
+								  "name":" Demo- Case Insensitive Search and Performance",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/10. Demo- Case Insensitive Search and Performance.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Partial Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/11. Scenario- Partial Index.mp4"
+								  },
+								  { 
+								  "name":" Demo- Partial Index",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/12. Demo- Partial Index.mp4"
+								  },
+								  { 
+								  "name":" Summary",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/04. PostgreSQL- Index Tuning for Complex Queries/13. Summary.mp4"
+								  }
+								  ]
+			  },
+			  {
+			  "chapter":"05. PostgreSQL- Best Practices to Populate Large Database",
+			  "videos":[ 
+								  { 
+								  "name":" Introduction",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/00. Introduction.mp4"
+								  },
+								  { 
+								  "name":" Real World Scenario",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/01. Real World Scenario.mp4"
+								  },
+								  { 
+								  "name":" Disable Autocommit",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/02. Disable Autocommit.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Disable Autocommit",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/03. Scenario- Disable Autocommit.mp4"
+								  },
+								  { 
+								  "name":" Demo- Disable Autocommit",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/04. Demo- Disable Autocommit.mp4"
+								  },
+								  { 
+								  "name":" Copy Command",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/05. Copy Command.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Copy Command",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/06. Scenario- Copy Command.mp4"
+								  },
+								  { 
+								  "name":" Demo- Copy Command",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/07. Demo- Copy Command.mp4"
+								  },
+								  { 
+								  "name":" Remove Indexes",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/08. Remove Indexes.mp4"
+								  },
+								  { 
+								  "name":" Scenario- Remove Indexes",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/09. Scenario- Remove Indexes.mp4"
+								  },
+								  { 
+								  "name":" Demo- Remove Indexes",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/10. Demo- Remove Indexes.mp4"
+								  },
+								  { 
+								  "name":" Real World Scenario Conclusion",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/11. Real World Scenario Conclusion.mp4"
+								  },
+								  { 
+								  "name":" Summary",
+								  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/05. PostgreSQL- Best Practices to Populate Large Database/12. Summary.mp4"
+								  }
+								  ]
+			  },
+			  {
+			  "chapter":"06. PostgreSQL- Resources and Summary",
+			  "videos":[ 
+									  { 
+									  "name":" Introduction",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/00. Introduction.mp4"
+									  },
+									  { 
+									  "name":" Our Learning",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/01. Our Learning.mp4"
+									  },
+									  { 
+									  "name":" Best Practices",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/02. Best Practices.mp4"
+									  },
+									  { 
+									  "name":" Demo- VACUUM Command",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/03. Demo- VACUUM Command.mp4"
+									  },
+									  { 
+									  "name":" Important Resources",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/04. Important Resources.mp4"
+									  },
+									  { 
+									  "name":" Real World Scenario Conclusion",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/05. Real World Scenario Conclusion.mp4"
+									  },
+									  { 
+									  "name":" Journey So Far",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/06. Journey So Far....mp4"
+									  },
+									  { 
+									  "name":" Summary",
+									  "video":"postgresql/PostgreSQL- Index Tuning and Performance Optimization/06. PostgreSQL- Resources and Summary/07. Summary.mp4"
+									  }
+									  ]
+					}
+				   ]
+		}
+  
+  
+	]
+  }
